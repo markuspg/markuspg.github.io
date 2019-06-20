@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Programming Pilgrim</title>
-    <link>https://markuspg.github.io/tags/</link>
-    <description>Recent content in Tags on Programming Pilgrim</description>
+    <title>untagged on Programming Pilgrim</title>
+    <link>https://markuspg.github.io/tags/untagged/</link>
+    <description>Recent content in untagged on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Thu, 20 Jun 2019 12:26:21 +0200</lastBuildDate>
     
-	<atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://markuspg.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>untagged</title>
-      <link>https://markuspg.github.io/tags/untagged/</link>
+      <title>Init</title>
+      <link>https://markuspg.github.io/posts/init/</link>
       <pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/untagged/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/init/</guid>
+      <description>This is just a test. Hello World!</description>
     </item>
     
   </channel>
