@@ -6,8 +6,44 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Thu, 20 Jun 2019 12:26:21 +0200</lastBuildDate>
+		<lastBuildDate>Tue, 16 Jul 2019 21:54:45 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Wrapping a C&#43;&#43; SDK with C&#43;&#43;/CLI</title>
+			<link>https://markuspg.github.io/posts/cppcli/</link>
+			<pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/cppcli/</guid>
+			<description>Recently at work I had to wrap a C++ SDK for usage in C#. My first try was using P/Invoke which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on C linkage). Therefore my coworkers and me decided to utilize C++/CLI for which an introduction can be found here.
+One basic problem is how to embed the unmanaged C++ classes from the SDK in managed C++/CLI ones.</description>
+			<content type="html"><![CDATA[<p>Recently at work I had to wrap a C++ SDK for usage in C#.
+My first try was using <em>P/Invoke</em> which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on <em>C</em> linkage).
+Therefore my coworkers and me decided to utilize <em>C++/CLI</em> for which an introduction can be found <a href="https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=vs-2019" target="_blank">here</a>.</p>
+
+<p>One basic problem is how to embed the <em>unmanaged C++</em> classes from the SDK in <em>managed C++/CLI</em> ones.
+Fortunately managed classes can have pointers to unmanaged objects as private data members, so I created the base class of the inheritance hierarchy mirroring the SDK&rsquo;s inheritance hierarchy like this:</p>
+
+<pre><code>public ref class WrapperObject {
+public:
+    WrapperObject(SdkObject *const argObj) :
+        obj(argObj)
+    {}
+    # The destructor should do nothing more than calling the finalizer
+    virtual ~WrapperObject() { this-&gt;!WrapperObject(); }
+    # The finalizer frees the internally held unmanaged object's instance
+    !WrapperObject() { delete obj; }
+
+    void DoSomething() { obj-&gt;DoSomething(); }
+
+private:
+    SdkObject *obj = nullptr;
+};
+</code></pre>
+
+<p>The <code>void DoSomething()</code> member function gives an example how the managed object can forward calls to the unmanaged object.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Init</title>
