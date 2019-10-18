@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Programming Pilgrim</title>
@@ -6,8 +7,42 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Tue, 16 Jul 2019 21:54:45 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 17 Oct 2019 17:45:23 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>(Re-)Installing a HP LaserJet P1606dn</title>
+			<link>https://markuspg.github.io/posts/hp1606dn/</link>
+			<pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/hp1606dn/</guid>
+			<description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
+For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
+			<content type="html"><![CDATA[<p>As about every two years I upgraded my mother&rsquo;s computer to the newest Debian release.
+This time from <em>Stretch</em> to <em>Buster</em> (thanks to the Debian community for this great release again!).</p>
+
+<p>For years I bought <em>HP</em> printers because they worked really nice with Linux.
+Last I bought a <em>HP LaserJet P1606dn</em>.
+This one harmed the Linux happiness.
+It needs some binary plugin and this regularly is a pain to install.</p>
+
+<p>The upgrade broke the previously working installed printer.
+So I set off to install it again.
+I tried installing the plugin again and again with <code>hp-plugin</code> and <code>hp-setup</code>.
+Both tools again and again told me the plugin was successfully installed but on the next call they requested installation again.</p>
+
+<p>After some googling I found <a href="https://www.linuxquestions.org/questions/linux-software-2/hplip-keeps-looping-at-plug-in-installation-4175647505/" target="_blank">this post</a> on <a href="https://www.linuxquestions.org" target="_blank">linuxquestions.org</a>.
+I tried running <code>hp-setup</code> with the <code>-g</code> flag and also found some files missing.
+After running these commands everything worked fine:</p>
+
+<pre><code>ln -s /usr/lib/sane /usr/lib/i386-linux-gnu/sane
+mkdir /usr/lib64/x86_64-linux-gnu
+ln -s /usr/lib64/sane /usr/lib64/x86_64-linux-gnu/sane
+</code></pre>
+
+<p>Thanks to <em>zaskar_84</em>!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Wrapping a C&#43;&#43; SDK with C&#43;&#43;/CLI</title>

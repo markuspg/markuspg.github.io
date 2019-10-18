@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>c&#43;&#43;</title>
+      <title>C&#43;&#43;</title>
       <link>https://markuspg.github.io/tags/c&#43;&#43;/</link>
       <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
       
@@ -22,20 +22,38 @@
     </item>
     
     <item>
-      <title>windows</title>
-      <link>https://markuspg.github.io/tags/windows/</link>
-      <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
+      <title>Debian</title>
+      <link>https://markuspg.github.io/tags/debian/</link>
+      <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/windows/</guid>
+      <guid>https://markuspg.github.io/tags/debian/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>untagged</title>
+      <title>Hplip</title>
+      <link>https://markuspg.github.io/tags/hplip/</link>
+      <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/hplip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Untagged</title>
       <link>https://markuspg.github.io/tags/untagged/</link>
       <pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
       
       <guid>https://markuspg.github.io/tags/untagged/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://markuspg.github.io/tags/windows/</link>
+      <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/windows/</guid>
       <description></description>
     </item>
     
