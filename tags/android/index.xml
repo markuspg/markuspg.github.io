@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>debian on Programming Pilgrim</title>
-    <link>https://markuspg.github.io/tags/debian/</link>
-    <description>Recent content in debian on Programming Pilgrim</description>
+    <title>android on Programming Pilgrim</title>
+    <link>https://markuspg.github.io/tags/android/</link>
+    <description>Recent content in android on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Sat, 19 Oct 2019 20:46:54 +0200</lastBuildDate>
     
-	<atom:link href="https://markuspg.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://markuspg.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>https://markuspg.github.io/posts/quick_aosp/</guid>
       <description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
-    </item>
-    
-    <item>
-      <title>(Re-)Installing a HP LaserJet P1606dn</title>
-      <link>https://markuspg.github.io/posts/hp1606dn/</link>
-      <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
-      <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
-For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
     </item>
     
   </channel>

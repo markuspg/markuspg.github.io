@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Programming Pilgrim</title>
@@ -7,8 +6,95 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Thu, 17 Oct 2019 17:45:23 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 19 Oct 2019 20:46:54 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Quick AOSP Build</title>
+			<link>https://markuspg.github.io/posts/quick_aosp/</link>
+			<pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/quick_aosp/</guid>
+			<description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
+			<content type="html"><![CDATA[<p>This is an attempt at trying out how fast AOSP can be built for a <em>Nexus 5X</em> from scratch including setting up a virtual machine with <em>Debian Stretch</em> in which the build will be done.
+For virtualization <em>VMware Workstation 15 Player</em> was used on a <em>Windows 10 v1809</em> running on a <em>DELL</em> laptop with an <em>Intel Core i9-8950HK</em> and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</p>
+
+<p>Start: ~19:30</p>
+
+<p>First <em>Debian Stretch</em> was set up as default network install including the <em>Gnome</em> desktop environment.
+As a baseline of development packages install the following ones:</p>
+
+<pre><code>sudo apt install bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf lib32z-dev lib32ncurses5-dev libc6-dev-i386 libgl1-mesa-dev libx11-dev libxml2-utils m4 make openjdk-8-jdk open-vm-tools open-vm-tools-desktop unzip vim x11proto-core-dev xsltproc zip zlib1g-dev
+</code></pre>
+
+<p>Create a <code>bin</code> directory in your home directory and add it to your <code>PATH</code>.</p>
+
+<pre><code>mkdir ~/bin
+PATH=~/bin:$PATH
+</code></pre>
+
+<p>Google developed an own tool for handling the multitude of <em>Git</em> repositories which all combined make up the Android sources. This tool is called <code>repo</code> and can be installed to your <code>bin</code> directory with the following commands:</p>
+
+<pre><code>curl https://storage.googleapis.com/git-repo-downloads/repo &gt; ~/bin/repo
+chmod a+x ~/bin/repo
+</code></pre>
+
+<p>Check if <code>sha256sum ~/bin/repo</code> equals <code>d06f33115aea44e583c8669375b35aad397176a411de3461897444d247b6c220</code> (as of <em>repo</em> 1.25) and make the <code>repo</code> binary executable.</p>
+
+<pre><code>chmod a+x ~/bin/repo
+</code></pre>
+
+<p>Create a working directory for all the <em>Android</em> sources and change into it:</p>
+
+<pre><code>mkdir ~/aosp
+cd ~/aosp
+</code></pre>
+
+<p>Configure your <em>Git</em> user:</p>
+
+<pre><code>git config --global user.name &quot;Your Name&quot;
+git config --global user.email &quot;you@example.com&quot;
+</code></pre>
+
+<p>Initialize the working directory (without the <code>-b android-8.1.0_r46</code> you get Android&rsquo;s current master):</p>
+
+<pre><code>repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r46
+repo sync
+</code></pre>
+
+<p>For finding the correct device driver binaries the tag has to be mapped to the correct build through <a href="https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds" target="_blank">this table</a>. <code>android-8.1.0_r46</code> is mapped to <code>OPM6.171019.030.K1</code>.</p>
+
+<p>The driver binaries for Nexus and Pixel devices can be obtained <a href="https://developers.google.com/android/drivers" target="_blank">here</a>.
+Download both files for the <em>Nexus 5X</em> and the build <code>OPM6.171019.030.K1</code> and verify their checksums.</p>
+
+<p>These self extracting scripts can be run as follows:</p>
+
+<pre><code>cp -v ~/Downloads/extract-* .
+./extract-lge-bullhead.sh
+./extract-qcom-bullhead.sh
+</code></pre>
+
+<p>The actual build is started with these commands (the appended <code>aplay</code> command is only for an audible notification when the build is done):</p>
+
+<pre><code>source build/envsetup.sh
+lunch aosp_bullhead-userdebug
+m -j12 &amp;&amp; paplay /usr/share/sounds/freedesktop/stereo/complete.oga
+</code></pre>
+
+<p>To be able to access the phone copy <a href="https://raw.githubusercontent.com/M0Rf30/android-udev-rules/master/51-android.rules" target="_blank">this</a> rules file to <code>/etc/udev/rules.d/</code>.</p>
+
+<p>If your <em>Nexus 5X</em> has not been unlocked yet, you have to do this step first (Google is your friend).
+Last you can flash the built Android system by running:</p>
+
+<pre><code>fastboot flashall -w
+</code></pre>
+
+<p>Finish: 00:10</p>
+
+<p>4:40 for building a custom Android image (not my first try though).
+I&rsquo;m most impressed with the performance of my laptop, especially since I lost about 45 minutes fiddling with a problem caused by packages I had forgotten to install ;-)</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>(Re-)Installing a HP LaserJet P1606dn</title>
