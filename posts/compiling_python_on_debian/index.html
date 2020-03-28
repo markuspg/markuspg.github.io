@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Compiling A More Recent Python Version On Debian Stretch">
+<meta itemprop="description" content="For a current work project I&rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+Since my last Android builds Google&rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
+Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?">
+
+
+<meta itemprop="datePublished" content="2020-03-27T13:26:29&#43;02:00" />
+<meta itemprop="dateModified" content="2020-03-27T13:26:29&#43;02:00" />
+<meta itemprop="wordCount" content="284">
+
+
+
+<meta itemprop="keywords" content="android,aosp,debian,python," />
+<meta property="og:title" content="Compiling A More Recent Python Version On Debian Stretch" />
+<meta property="og:description" content="For a current work project I&rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+Since my last Android builds Google&rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
+Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://markuspg.github.io/posts/compiling_python_on_debian/" />
+<meta property="article:published_time" content="2020-03-27T13:26:29&#43;02:00"/>
+<meta property="article:modified_time" content="2020-03-27T13:26:29&#43;02:00"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Compiling A More Recent Python Version On Debian Stretch"/>
+<meta name="twitter:description" content="For a current work project I&rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+Since my last Android builds Google&rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
+Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Compiling A More Recent Python Version On Debian Stretch</title>
+	<link rel="stylesheet" href="https://markuspg.github.io/css/style.min.9a30741782203507f3d35fe9cefabad487c72fc82dfbdf59121759fc2fa52f92.css" integrity="sha256-mjB0F4IgNQfz01/pzvq61IfHL8gt+99ZEhdZ/C+lL5I=">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://markuspg.github.io/">Programming Pilgrim</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="https://markuspg.github.io/posts/">Posts</a>
+					<a href="https://markuspg.github.io/about/">About</a>
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://markuspg.github.io/posts/">Posts</a></li>
+			<li><a href="https://markuspg.github.io/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Mar 27, 2020</span></div>
+				<h1>Compiling A More Recent Python Version On Debian Stretch</h1>
+			</header>
+			<div class="content">
+				<p>For a current work project I&rsquo;m again dealing with building and modifying the <em>Android Open Source Project</em>.
+As usual my operating system of choice for that task is <em>Debian Stretch</em> (9.12).</p>
+
+<p>Since my last Android builds Google&rsquo;s <code>repo</code> tool for organizing the multitude of repositories that are needed for an Android build got finally updated from <em>Python 2</em> to <em>Python 3</em> (and that seemingly straight to <em>Python 3.6</em>).</p>
+
+<p>Therefore on every invocation of <code>repo init</code> I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?).
+Fortunately Python makes it really easy to have multiple versions installed in parallel as explained in the following.</p>
+
+<p>First the <em>cpython</em> repository has to be cloned and to be changed into.</p>
+
+<pre><code>git clone https://github.com/python/cpython.git
+cd cpython
+</code></pre>
+
+<p>In this example version <code>3.7.7</code> of the <em>cpython</em> Python implementation shall be build (this is the most recent one as of writing).
+<em>cpython</em> can be checked out like this:</p>
+
+<pre><code>git checkout v3.7.7
+</code></pre>
+
+<p>All configuration options for the build can be shown by the <code>--help</code> argument for <em>configure</em>.</p>
+
+<pre><code>./configure --help | less
+</code></pre>
+
+<p><em>cpython</em> offers the possibility to rely on the operating system&rsquo;s libraries instead of those being included with the sources of <em>cpython</em>.
+These can be installed on Debian through <code>apt</code>.</p>
+
+<pre><code>apt install libexpat1-dev libffi-dev libmpdec-dev
+</code></pre>
+
+<p>Afterwards the build can be configured, executed and installed with these commands:</p>
+
+<pre><code>./configure --enable-optimizations --with-system-expat  --with-system-ffi --with-system-libmpdec
+make
+sudo make altinstall
+</code></pre>
+
+<p><code>make altinstall</code> installs the <em>cpython</em> Python interpreter with a version suffix to not collide with the default system one.
+To use specifically the newly installed <em>cpython</em> interpreter a virtual environment is created and then activated before running the commands that require a newer Python version.</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://markuspg.github.io/tags/android">android</a></span><span class="tag"><a href="https://markuspg.github.io/tags/aosp">aosp</a></span><span class="tag"><a href="https://markuspg.github.io/tags/debian">debian</a></span><span class="tag"><a href="https://markuspg.github.io/tags/python">python</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>284 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-03-27 12:26 &#43;0100</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://markuspg.github.io/posts/quick_aosp/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Quick AOSP Build</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://markuspg.github.io/">Markus Prasser</a> &#183; <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://markuspg.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+	<script src="https://markuspg.github.io/js/main.min.8f39f24808e9d0a9b02da58c2d2838da859dc0b7bdfadbdb1883aae8b6adacfe.js" integrity="sha256-jznySAjp0KmwLaWMLSg42oWdwLe9+tvbGIOq6LatrP4="></script>
+
+</body>
+
+</html>

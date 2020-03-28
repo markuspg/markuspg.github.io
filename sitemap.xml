@@ -3,15 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://markuspg.github.io/posts/</loc>
-    <lastmod>2019-10-19T20:46:54+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://markuspg.github.io/</loc>
-    <lastmod>2019-10-19T20:46:54+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://markuspg.github.io/posts/compiling_python_on_debian/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
   </url>
   
   <url>
@@ -20,37 +13,40 @@
   </url>
   
   <url>
-    <loc>https://markuspg.github.io/tags/</loc>
-    <lastmod>2019-10-19T20:46:54+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://markuspg.github.io/tags/android/</loc>
-    <lastmod>2019-10-19T20:46:54+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://markuspg.github.io/tags/debian/</loc>
-    <lastmod>2019-10-19T20:46:54+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://markuspg.github.io/posts/hp1606dn/</loc>
     <lastmod>2019-10-17T17:45:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markuspg.github.io/tags/hplip/</loc>
-    <lastmod>2019-10-17T17:45:23+02:00</lastmod>
+    <loc>https://markuspg.github.io/posts/cppcli/</loc>
+    <lastmod>2019-07-16T21:54:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/posts/init/</loc>
+    <lastmod>2019-06-20T12:26:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/about/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://markuspg.github.io/posts/cppcli/</loc>
-    <lastmod>2019-07-16T21:54:45+02:00</lastmod>
+    <loc>https://markuspg.github.io/tags/android/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/tags/aosp/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -60,14 +56,39 @@
   </url>
   
   <url>
-    <loc>https://markuspg.github.io/tags/windows/</loc>
-    <lastmod>2019-07-16T21:54:45+02:00</lastmod>
+    <loc>https://markuspg.github.io/tags/debian/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://markuspg.github.io/posts/init/</loc>
-    <lastmod>2019-06-20T12:26:21+02:00</lastmod>
+    <loc>https://markuspg.github.io/tags/hplip/</loc>
+    <lastmod>2019-10-17T17:45:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/posts/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/tags/python/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/tags/</loc>
+    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -77,12 +98,8 @@
   </url>
   
   <url>
-    <loc>https://markuspg.github.io/about/</loc>
-    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://markuspg.github.io/index.html</loc>
+    <loc>https://markuspg.github.io/tags/windows/</loc>
+    <lastmod>2019-07-16T21:54:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   

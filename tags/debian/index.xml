@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>debian on Programming Pilgrim</title>
+    <title>Debian on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/debian/</link>
-    <description>Recent content in debian on Programming Pilgrim</description>
+    <description>Recent content in Debian on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 19 Oct 2019 20:46:54 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 13:26:29 +0200</lastBuildDate>
     
 	<atom:link href="https://markuspg.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Compiling A More Recent Python Version On Debian Stretch</title>
+      <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
+      <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
+      <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
+Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
+    </item>
     
     <item>
       <title>Quick AOSP Build</title>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Programming Pilgrim</title>
@@ -6,8 +7,60 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 19 Oct 2019 20:46:54 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 27 Mar 2020 13:26:29 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Compiling A More Recent Python Version On Debian Stretch</title>
+			<link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
+			<pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
+			<description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
+Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
+			<content type="html"><![CDATA[<p>For a current work project I&rsquo;m again dealing with building and modifying the <em>Android Open Source Project</em>.
+As usual my operating system of choice for that task is <em>Debian Stretch</em> (9.12).</p>
+
+<p>Since my last Android builds Google&rsquo;s <code>repo</code> tool for organizing the multitude of repositories that are needed for an Android build got finally updated from <em>Python 2</em> to <em>Python 3</em> (and that seemingly straight to <em>Python 3.6</em>).</p>
+
+<p>Therefore on every invocation of <code>repo init</code> I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?).
+Fortunately Python makes it really easy to have multiple versions installed in parallel as explained in the following.</p>
+
+<p>First the <em>cpython</em> repository has to be cloned and to be changed into.</p>
+
+<pre><code>git clone https://github.com/python/cpython.git
+cd cpython
+</code></pre>
+
+<p>In this example version <code>3.7.7</code> of the <em>cpython</em> Python implementation shall be build (this is the most recent one as of writing).
+<em>cpython</em> can be checked out like this:</p>
+
+<pre><code>git checkout v3.7.7
+</code></pre>
+
+<p>All configuration options for the build can be shown by the <code>--help</code> argument for <em>configure</em>.</p>
+
+<pre><code>./configure --help | less
+</code></pre>
+
+<p><em>cpython</em> offers the possibility to rely on the operating system&rsquo;s libraries instead of those being included with the sources of <em>cpython</em>.
+These can be installed on Debian through <code>apt</code>.</p>
+
+<pre><code>apt install libexpat1-dev libffi-dev libmpdec-dev
+</code></pre>
+
+<p>Afterwards the build can be configured, executed and installed with these commands:</p>
+
+<pre><code>./configure --enable-optimizations --with-system-expat  --with-system-ffi --with-system-libmpdec
+make
+sudo make altinstall
+</code></pre>
+
+<p><code>make altinstall</code> installs the <em>cpython</em> Python interpreter with a version suffix to not collide with the default system one.
+To use specifically the newly installed <em>cpython</em> interpreter a virtual environment is created and then activated before running the commands that require a newer Python version.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Quick AOSP Build</title>
