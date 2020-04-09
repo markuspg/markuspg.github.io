@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</loc>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/posts/compiling_python_on_debian/</loc>
     <lastmod>2020-03-27T13:26:29+02:00</lastmod>
   </url>
@@ -39,13 +44,13 @@
   
   <url>
     <loc>https://markuspg.github.io/tags/android/</loc>
-    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://markuspg.github.io/tags/aosp/</loc>
-    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,7 +62,7 @@
   
   <url>
     <loc>https://markuspg.github.io/tags/debian/</loc>
-    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,13 +74,13 @@
   
   <url>
     <loc>https://markuspg.github.io/posts/</loc>
-    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://markuspg.github.io/</loc>
-    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,7 +92,7 @@
   
   <url>
     <loc>https://markuspg.github.io/tags/</loc>
-    <lastmod>2020-03-27T13:26:29+02:00</lastmod>
+    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 13:26:29 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 17:24:56 +0200</lastBuildDate>
     
 	<atom:link href="https://markuspg.github.io/tags/aosp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building Android Pie on Debian Buster</title>
+      <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
+      <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
+      <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
+My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
+    </item>
     
     <item>
       <title>Compiling A More Recent Python Version On Debian Stretch</title>
