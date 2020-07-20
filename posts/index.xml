@@ -7,8 +7,55 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Thu, 09 Apr 2020 17:24:56 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 18 Jul 2020 14:34:54 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Regularly used QEMU invocations</title>
+			<link>https://markuspg.github.io/posts/qemu_commands/</link>
+			<pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/qemu_commands/</guid>
+			<description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
+Virtual Machine Image Creation A command to create an image:
+qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
+Installing and Running the Guest Operating System The image can then be installed and run with:
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.</description>
+			<content type="html"><![CDATA[
+
+<p>This post is nothing more than a quick reference of QEMU commands for different scenarios.</p>
+
+<h2 id="virtual-machine-image-creation">Virtual Machine Image Creation</h2>
+
+<p>A command to create an image:</p>
+
+<pre><code>qemu-img create -f qcow2 -o nocow=on TestClient.img 64G
+</code></pre>
+
+<p>The <code>-o nocow=on</code> option is valid on Btrfs only and shall avoid degraded performance.</p>
+
+<h2 id="installing-and-running-the-guest-operating-system">Installing and Running the Guest Operating System</h2>
+
+<p>The image can then be installed and run with:</p>
+
+<pre><code>qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name 'Test Server'
+</code></pre>
+
+<p>The <code>-cdrom</code> part is only passed on installation. <code>-enable-kvm</code> greatly improves performance, <code>-k de</code> set the keyboard layout, <code>-m 4096</code> the memory size and the <code>-name 'Test Server'</code> adds a window title which helps telling apart multiple virtual machines.</p>
+
+<h2 id="sharing-a-directory-between-the-host-and-the-guest-operating-system">Sharing a Directory between the Host and the Guest Operating System</h2>
+
+<p>To share a directory between the host and the guest operating systems the following argument has to be added to the QEMU invocation (the user should be in the <code>qemu</code> group to run the command with elevated privileges):</p>
+
+<pre><code>-virtfs local,path=/home/maprasser/Downloads,mount_tag=VMTransfer,security_model=none
+</code></pre>
+
+<p>The shared directory can be mounted within the virtual machine with the following command (the <code>/mnt/vm_transfer</code> mount point has to exist already):</p>
+
+<pre><code>mount -t 9p -o trans=virtio VMTransfer /mnt/vm_transfer
+</code></pre>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Building Android Pie on Debian Buster</title>

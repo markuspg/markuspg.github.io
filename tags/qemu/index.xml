@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qemu on Programming Pilgrim</title>
+    <link>https://markuspg.github.io/tags/qemu/</link>
+    <description>Recent content in Qemu on Programming Pilgrim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 18 Jul 2020 14:34:54 +0200</lastBuildDate>
+    
+	<atom:link href="https://markuspg.github.io/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regularly used QEMU invocations</title>
+      <link>https://markuspg.github.io/posts/qemu_commands/</link>
+      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/posts/qemu_commands/</guid>
+      <description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
+Virtual Machine Image Creation A command to create an image:
+qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
+Installing and Running the Guest Operating System The image can then be installed and run with:
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -58,11 +58,29 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>https://markuspg.github.io/tags/linux/</link>
+      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>https://markuspg.github.io/tags/python/</link>
       <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
       
       <guid>https://markuspg.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qemu</title>
+      <link>https://markuspg.github.io/tags/qemu/</link>
+      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/qemu/</guid>
       <description></description>
     </item>
     
