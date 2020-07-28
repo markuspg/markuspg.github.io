@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://markuspg.github.io/posts/uuu_within_vm/</loc>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/posts/qemu_commands/</loc>
     <lastmod>2020-07-18T14:34:54+02:00</lastmod>
   </url>
@@ -67,7 +72,7 @@
   
   <url>
     <loc>https://markuspg.github.io/tags/debian/</loc>
-    <lastmod>2020-04-09T17:24:56+02:00</lastmod>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -78,20 +83,38 @@
   </url>
   
   <url>
+    <loc>https://markuspg.github.io/tags/i.mx8/</loc>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/tags/linux/</loc>
     <lastmod>2020-07-18T14:34:54+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://markuspg.github.io/tags/nxp/</loc>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/posts/</loc>
-    <lastmod>2020-07-18T14:34:54+02:00</lastmod>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://markuspg.github.io/</loc>
-    <lastmod>2020-07-18T14:34:54+02:00</lastmod>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/tags/proxmox/</loc>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,7 +126,7 @@
   
   <url>
     <loc>https://markuspg.github.io/tags/qemu/</loc>
-    <lastmod>2020-07-18T14:34:54+02:00</lastmod>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -114,8 +137,20 @@
   </url>
   
   <url>
+    <loc>https://markuspg.github.io/tags/ubuntu/</loc>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/tags/untagged/</loc>
     <lastmod>2019-06-20T12:26:21+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/tags/uuu/</loc>
+    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   

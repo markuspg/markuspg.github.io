@@ -7,8 +7,26 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 18 Jul 2020 14:34:54 +0200</lastBuildDate>
+		<lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
+			<link>https://markuspg.github.io/posts/uuu_within_vm/</link>
+			<pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
+			<description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
+Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
+			<content type="html"><![CDATA[<p>For my current work project I have to integrate flashing a <em>NXP i.MX8</em> from a virtual machine running <em>Ubuntu Focal Fossa (20.04)</em> on top of a <em>QEMU</em> hypervisor on a <em>Proxmox 6.1</em> host. The flash process is done with the <a href="https://github.com/NXPmicro/mfgtools" target="_blank">uuu tool</a> from <em>NXPmicro</em>.</p>
+
+<p>Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.MX8 worked, on any further attempt the Proxmox host reset its USB and this then seemed to mess up the virtualized Ubuntu&rsquo;s USB. I tried another Linux (<em>Fedora</em>) as host and guest operating system for variety and both constellations did not improve the situation.</p>
+
+<p>As a last resort a <a href="https://www.amazon.de/BEYIMEI-Superspeed-3-0-Erweiterungskarte-5-15-poligem-SATA-Stromanschluss/dp/B0855QY46F/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=beyimei+usb+pci+express&amp;qid=1595968071&amp;sr=8-4" target="_blank">PCIe USB expansion card</a> was installed into the test rig. Now instead of forwarding the individual USB devices the PCIe USB expansion card was forwarded to the virtualized Ubuntu to let it handle its USB without interference of the host operating system.</p>
+
+<p>This has been working reliably for now and greatly helps our CI.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Regularly used QEMU invocations</title>
