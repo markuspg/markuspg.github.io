@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Completed</title>
+      <link>https://markuspg.github.io/tags/completed/</link>
+      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/completed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Debian</title>
       <link>https://markuspg.github.io/tags/debian/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
@@ -85,20 +94,11 @@
     </item>
     
     <item>
-      <title>Proxmox</title>
-      <link>https://markuspg.github.io/tags/proxmox/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>Project</title>
+      <link>https://markuspg.github.io/tags/project/</link>
+      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/proxmox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://markuspg.github.io/tags/python/</link>
-      <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/python/</guid>
+      <guid>https://markuspg.github.io/tags/project/</guid>
       <description></description>
     </item>
     

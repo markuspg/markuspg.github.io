@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://markuspg.github.io/posts/completed_project_patir/</loc>
+    <lastmod>2021-06-22T21:37:52+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/posts/uuu_within_vm/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
   </url>
@@ -71,6 +76,12 @@
   </url>
   
   <url>
+    <loc>https://markuspg.github.io/tags/completed/</loc>
+    <lastmod>2021-06-22T21:37:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://markuspg.github.io/tags/debian/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
     <priority>0</priority>
@@ -102,13 +113,19 @@
   
   <url>
     <loc>https://markuspg.github.io/posts/</loc>
-    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+    <lastmod>2021-06-22T21:37:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://markuspg.github.io/</loc>
-    <lastmod>2020-07-28T22:19:37+02:00</lastmod>
+    <lastmod>2021-06-22T21:37:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markuspg.github.io/tags/project/</loc>
+    <lastmod>2021-06-22T21:37:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
