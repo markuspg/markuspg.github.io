@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Completed on Programming Pilgrim</title>
+    <title>completed on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/completed/</link>
-    <description>Recent content in Completed on Programming Pilgrim</description>
+    <description>Recent content in completed on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 21:37:52 +0200</lastBuildDate>
-    
-	<atom:link href="https://markuspg.github.io/tags/completed/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 22 Jun 2021 21:37:52 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/completed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Completed Project: patir</title>
       <link>https://markuspg.github.io/posts/completed_project_patir/</link>

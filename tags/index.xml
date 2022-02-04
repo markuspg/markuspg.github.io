@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Programming Pilgrim</title>
@@ -7,40 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 17:24:56 +0200</lastBuildDate>
-    
-	<atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 22 Jun 2021 21:37:52 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Android</title>
-      <link>https://markuspg.github.io/tags/android/</link>
-      <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aosp</title>
-      <link>https://markuspg.github.io/tags/aosp/</link>
-      <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/aosp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://markuspg.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Completed</title>
+      <title>completed</title>
       <link>https://markuspg.github.io/tags/completed/</link>
       <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
       
@@ -49,7 +18,16 @@
     </item>
     
     <item>
-      <title>Debian</title>
+      <title>project</title>
+      <link>https://markuspg.github.io/tags/project/</link>
+      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
       <link>https://markuspg.github.io/tags/debian/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       
@@ -58,16 +36,7 @@
     </item>
     
     <item>
-      <title>Hplip</title>
-      <link>https://markuspg.github.io/tags/hplip/</link>
-      <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/hplip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I.mx8</title>
+      <title>i.mx8</title>
       <link>https://markuspg.github.io/tags/i.mx8/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       
@@ -76,16 +45,7 @@
     </item>
     
     <item>
-      <title>Linux</title>
-      <link>https://markuspg.github.io/tags/linux/</link>
-      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nxp</title>
+      <title>nxp</title>
       <link>https://markuspg.github.io/tags/nxp/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       
@@ -94,11 +54,47 @@
     </item>
     
     <item>
-      <title>Project</title>
-      <link>https://markuspg.github.io/tags/project/</link>
-      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
+      <title>proxmox</title>
+      <link>https://markuspg.github.io/tags/proxmox/</link>
+      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/project/</guid>
+      <guid>https://markuspg.github.io/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qemu</title>
+      <link>https://markuspg.github.io/tags/qemu/</link>
+      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://markuspg.github.io/tags/ubuntu/</link>
+      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uuu</title>
+      <link>https://markuspg.github.io/tags/uuu/</link>
+      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/uuu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://markuspg.github.io/tags/linux/</link>
+      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

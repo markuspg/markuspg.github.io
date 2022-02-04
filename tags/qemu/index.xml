@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Qemu on Programming Pilgrim</title>
+    <title>qemu on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/qemu/</link>
-    <description>Recent content in Qemu on Programming Pilgrim</description>
+    <description>Recent content in qemu on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
-    
-	<atom:link href="https://markuspg.github.io/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
@@ -32,7 +28,7 @@ Unfortunately the initial flashing attempts were not successful. After quite a f
 Virtual Machine Image Creation A command to create an image:
 qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
 Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.</description>
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39;  The -cdrom part is only passed on installation.</description>
     </item>
     
   </channel>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uuu on Programming Pilgrim</title>
+    <title>uuu on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/uuu/</link>
-    <description>Recent content in Uuu on Programming Pilgrim</description>
+    <description>Recent content in uuu on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
-    
-	<atom:link href="https://markuspg.github.io/tags/uuu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/uuu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
