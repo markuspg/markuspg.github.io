@@ -2,99 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming Pilgrim</title>
-    <link>https://markuspg.github.io/index.html</link>
+    <link>https://markuspg.github.io/</link>
     <description>Recent content on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright><atom:link href="https://markuspg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 22 Jun 2021 21:37:52 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>completed</title>
-      <link>https://markuspg.github.io/tags/completed/</link>
+      <title>Completed Project: patir</title>
+      <link>https://markuspg.github.io/posts/completed_project_patir/</link>
       <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/completed/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
+      <description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
+The first fruit of this resolution is a refactoring of patir, a Ruby gem I use for a project at work. My contributions mostly come down to:
+ extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions  </description>
     </item>
     
     <item>
-      <title>project</title>
-      <link>https://markuspg.github.io/tags/project/</link>
-      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://markuspg.github.io/tags/</link>
-      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>debian</title>
-      <link>https://markuspg.github.io/tags/debian/</link>
+      <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
+      <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/debian/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
+      <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
+Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
     </item>
     
     <item>
-      <title>i.mx8</title>
-      <link>https://markuspg.github.io/tags/i.mx8/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>Regularly used QEMU invocations</title>
+      <link>https://markuspg.github.io/posts/qemu_commands/</link>
+      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/i.mx8/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/qemu_commands/</guid>
+      <description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
+Virtual Machine Image Creation A command to create an image:
+qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
+Installing and Running the Guest Operating System The image can then be installed and run with:
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39;  The -cdrom part is only passed on installation.</description>
     </item>
     
     <item>
-      <title>nxp</title>
-      <link>https://markuspg.github.io/tags/nxp/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>Building Android Pie on Debian Buster</title>
+      <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
+      <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/nxp/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
+      <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
+My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
     </item>
     
     <item>
-      <title>proxmox</title>
-      <link>https://markuspg.github.io/tags/proxmox/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>Compiling A More Recent Python Version On Debian Stretch</title>
+      <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
+      <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/proxmox/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
+      <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
+Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
     </item>
     
     <item>
-      <title>qemu</title>
-      <link>https://markuspg.github.io/tags/qemu/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>Quick AOSP Build</title>
+      <link>https://markuspg.github.io/posts/quick_aosp/</link>
+      <pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/qemu/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/quick_aosp/</guid>
+      <description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
     </item>
     
     <item>
-      <title>ubuntu</title>
-      <link>https://markuspg.github.io/tags/ubuntu/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>(Re-)Installing a HP LaserJet P1606dn</title>
+      <link>https://markuspg.github.io/posts/hp1606dn/</link>
+      <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/ubuntu/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
+      <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
+For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
     </item>
     
     <item>
-      <title>uuu</title>
-      <link>https://markuspg.github.io/tags/uuu/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <title>Wrapping a C&#43;&#43; SDK with C&#43;&#43;/CLI</title>
+      <link>https://markuspg.github.io/posts/cppcli/</link>
+      <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
       
-      <guid>https://markuspg.github.io/tags/uuu/</guid>
-      <description></description>
+      <guid>https://markuspg.github.io/posts/cppcli/</guid>
+      <description>Recently at work I had to wrap a C++ SDK for usage in C#. My first try was using P/Invoke which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on C linkage). Therefore my coworkers and me decided to utilize C++/CLI for which an introduction can be found here.
+One basic problem is how to embed the unmanaged C++ classes from the SDK in managed C++/CLI ones.</description>
+    </item>
+    
+    <item>
+      <title>Init</title>
+      <link>https://markuspg.github.io/posts/init/</link>
+      <pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/posts/init/</guid>
+      <description>This is just a test. Hello World!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://markuspg.github.io/about/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://markuspg.github.io/about/</guid>
+      <description>This page is mainly intended as a publicly accessible notebook of mine. If the stuff which will be accumulated here is useful for anyone else I&amp;rsquo;m happy.
+The page is powered by Hugo which is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
     </item>
     
   </channel>
