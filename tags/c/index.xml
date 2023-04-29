@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Programming Pilgrim</title>
-    <link>https://markuspg.github.io/tags/linux/</link>
-    <description>Recent content in linux on Programming Pilgrim</description>
+    <title>c on Programming Pilgrim</title>
+    <link>https://markuspg.github.io/tags/c/</link>
+    <description>Recent content in c on Programming Pilgrim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A praise of conservative dependency handling</title>
       <link>https://markuspg.github.io/posts/conservative_dependencies/</link>
@@ -15,19 +15,6 @@
       
       <guid>https://markuspg.github.io/posts/conservative_dependencies/</guid>
       <description>Currently I work on porting GnoTime from deprecated dependencies on Gnome 2 into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old GNU Autotools. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current Debian oldstable, but during refactoring I prefer to use the most recent tooling available.</description>
-    </item>
-    
-    <item>
-      <title>Regularly used QEMU invocations</title>
-      <link>https://markuspg.github.io/posts/qemu_commands/</link>
-      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/posts/qemu_commands/</guid>
-      <description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
-Virtual Machine Image Creation A command to create an image:
-qemu-img create -f qcow2 -o nocow=on TestClient.img 64G The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
-Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation.</description>
     </item>
     
   </channel>

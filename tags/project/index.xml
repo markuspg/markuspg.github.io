@@ -16,7 +16,7 @@
       <guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
       <description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
 The first fruit of this resolution is a refactoring of patir, a Ruby gem I use for a project at work. My contributions mostly come down to:
- extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions  </description>
+extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions </description>
     </item>
     
   </channel>

@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 29 Apr 2022 22:35:13 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>c</title>
+      <link>https://markuspg.github.io/tags/c/</link>
+      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://markuspg.github.io/tags/linux/</link>
+      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://markuspg.github.io/tags/python/</link>
+      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
+      
+      <guid>https://markuspg.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>clevo</title>
       <link>https://markuspg.github.io/tags/clevo/</link>
@@ -68,33 +95,6 @@
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       
       <guid>https://markuspg.github.io/tags/i.mx8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nxp</title>
-      <link>https://markuspg.github.io/tags/nxp/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/nxp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>proxmox</title>
-      <link>https://markuspg.github.io/tags/proxmox/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/proxmox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>qemu</title>
-      <link>https://markuspg.github.io/tags/qemu/</link>
-      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
-      
-      <guid>https://markuspg.github.io/tags/qemu/</guid>
       <description></description>
     </item>
     
