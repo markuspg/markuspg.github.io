@@ -6,8 +6,48 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate>
 		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Technik Museum Speyer</title>
+			<link>https://markuspg.github.io/posts/technik_museum_speyer/</link>
+			<pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
+			
+			<guid>https://markuspg.github.io/posts/technik_museum_speyer/</guid>
+			<description>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the Technik Museum Speyer. For me as a computer guy it&amp;rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.
+With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.</description>
+			<content type="html"><![CDATA[<p>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the <a href="https://speyer.technik-museum.de/en/">Technik Museum Speyer</a>. For me as a computer guy it&rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.</p>
+<p>With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.</p>
+<p>The visitor is welcomed by a huge hall stuffed with cars, airplanes, train engines, fire engines and even a carousel. Without impatient children I guess I could get lost for a few hours just there.</p>
+<p><img src="/static/technik_museum_speyer/img_2343.jpg" alt="Overview"></p>
+<p>Fire engines are available from really early ones &hellip;</p>
+<p><img src="/static/technik_museum_speyer/img_4172.jpg" alt="An old American fire engine"></p>
+<p>&hellip; up to more recent ones like this huge one from Frankfurt Airport (next to a <a href="https://en.wikipedia.org/wiki/DUKW">DUKW</a>).</p>
+<p><img src="/static/technik_museum_speyer/img_2347.jpg" alt="A former fire engine of Frankfurt Airport and a DUKW"></p>
+<p>Next there is a huge outside area with a plentiful collection of airplanes, boats and various heavy machinery.</p>
+<p>One highlight is the <a href="https://speyer.technik-museum.de/en/submarine-u9">submarine U9</a> which can be looked at from inside too.</p>
+<p><img src="/static/technik_museum_speyer/img_2381.jpg" alt="A view from the entry to the exit of the submarine"></p>
+<p><img src="/static/technik_museum_speyer/img_2390.jpg" alt="Part of the command post"></p>
+<p>An impressive <a href="https://en.wikipedia.org/wiki/Antonov_An-22">Antonov 22</a> (the world&rsquo;s largest turboprop-powered airplane) is situated between the submarine and the next highlight, &hellip;</p>
+<p><img src="/static/technik_museum_speyer/img_2394.jpg" alt="The Antonov 22"></p>
+<p>&hellip; a <a href="https://en.wikipedia.org/wiki/Boeing_747">Boeing 747</a>! It can be entered over multiple platforms and there exists a long (although slow) slide down from the middle platform. It&rsquo;s even possible to walk on the wing which is a great experience.</p>
+<p><img src="/static/technik_museum_speyer/img_2366.jpg" alt="A long shot of the Boeing 747 and its surroundings"></p>
+<p>Another view of the beauty from the bridge of an exhibited rescue ship:</p>
+<p><img src="/static/technik_museum_speyer/img_2375.jpg" alt="The Boeing 747 seen from the exhibited rescue ship"></p>
+<p>A further big hall contains a few cars, plenty of motor cycles and a space flight exhibition with a moonlanding display and a <a href="https://en.wikipedia.org/wiki/Buran_(spacecraft)">Buran spacecraft</a>.</p>
+<p><img src="/static/technik_museum_speyer/img_2413.jpg" alt="A view of the hall from the Buran spacecraft"></p>
+<p><img src="/static/technik_museum_speyer/img_4213.jpg" alt="The Buran spacecraft"></p>
+<p>Particular dear to my fancy for old Opels is an <a href="https://en.wikipedia.org/wiki/Opel_Ascona">Opel Ascona A</a> on display which was driven by the famous German rally driver <a href="https://en.wikipedia.org/wiki/Walter_R%C3%B6hrl">Walter Röhrl</a>.</p>
+<p><img src="/static/technik_museum_speyer/img_2421.jpg" alt="An Opel Ascona A rally car driven by Walter Röhrl"></p>
+<p>Around the borders of the museum compound there are various heavy machinery and trains.</p>
+<p><img src="/static/technik_museum_speyer/img_2470.jpg" alt="A Mack trucks dump truck"></p>
+<p><img src="/static/technik_museum_speyer/img_2476.jpg" alt="A Chinese steam engine"></p>
+<p>Unfortunately in the outside area some of the exhibits are in a sad state, but I guess with such a huge collection it&rsquo;s just not feasible to keep every exhibit in shape. Still it&rsquo;s better to be able to see them rather than having them scrapped. For little children there are plenty of diversions (rides) - although basically all of them cost € 1,-. I spent the equivalent of a grown-up&rsquo;s entrance fee on each of the children most probably - but to support such a great collection I do it without regret. There is a restaurant with reasonable food for reasonable prices (about € 13,- for a Schnitzel with French fries) in the museum.</p>
+<p>My only real criticism would be that the explanations of the individual exhibits are quite scant. It would be great if there were the current texts as short introduction and maybe next in smaller font or via an app or QR code further information available.</p>
+<p>But apart of this little criticism I can whole-heartedly recommend a day-trip to this great museum (about 90 minutes South of Frankfurt am Main).</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>A praise of conservative dependency handling</title>
@@ -38,9 +78,9 @@ At first I loosened all screws on the underside. The red and the yellow one are 
 <p><img src="/static/n15xzu_repair/01_underside.jpg" alt="Underside sticker"></p>
 <p>At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step. Through the hole of the yellow screw the keyboard can be lifted slightly by pressing it with a thin stick.</p>
 <p><img src="/static/n15xzu_repair/02_underside_screws.jpg" alt="Underside screws"></p>
-<p>Lifting the keyboard by pressing it from below allowed to go under it in its edges and then slowly unclip it all around. Special care has to be taken not to pluck out its cables forcefully! The brackets of the cables&rsquo; sockets are to be carefully folded upwards. Mistakenly I thought they were to be pulled off in direction of the cables, but this broke the brackets off. Still the cables hold reasonably well, but it&rsquo;s better to avoid that.</p>
+<p>Lifting the keyboard by pressing it from below allowed to go under it in its edges and then slowly unclip it all around. Special care has to be taken not to pluck out its cables forcefully! The brackets of the cables' sockets are to be carefully folded upwards. Mistakenly I thought they were to be pulled off in direction of the cables, but this broke the brackets off. Still the cables hold reasonably well, but it&rsquo;s better to avoid that.</p>
 <p><img src="/static/n15xzu_repair/03_keyboard_lifted.jpg" alt="The lifted keyboard">
-<img src="/static/n15xzu_repair/04_keyboard_cables.jpg" alt="The keyboard&amp;rsquo;s cables"></p>
+<img src="/static/n15xzu_repair/04_keyboard_cables.jpg" alt="The keyboard&rsquo;s cables"></p>
 <p>Below the keyboard are some more screws that need to be unscrewed before the bottom shell can be taken off.</p>
 <p><img src="/static/n15xzu_repair/05_keyboard_removed.jpg" alt="Keyboard removed"></p>
 <p>Now the mainboard is accessible, which in my case did not show any signs of damage - thanks God!</p>
@@ -61,7 +101,7 @@ At first I loosened all screws on the underside. The red and the yellow one are 
 			<guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
 			<description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
 The first fruit of this resolution is a refactoring of patir, a Ruby gem I use for a project at work. My contributions mostly come down to:
-extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions </description>
+ extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions  </description>
 			<content type="html"><![CDATA[<p>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.</p>
 <p>The first fruit of this resolution is a refactoring of <a href="https://github.com/damphyr/patir">patir</a>, a Ruby gem I use for a project at work. My contributions mostly come down to:</p>
 <ul>
@@ -96,9 +136,9 @@ Unfortunately the initial flashing attempts were not successful. After quite a f
 			<guid>https://markuspg.github.io/posts/qemu_commands/</guid>
 			<description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
 Virtual Machine Image Creation A command to create an image:
-qemu-img create -f qcow2 -o nocow=on TestClient.img 64G The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
+qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
 Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation.</description>
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39;  The -cdrom part is only passed on installation.</description>
 			<content type="html"><![CDATA[<p>This post is nothing more than a quick reference of QEMU commands for different scenarios.</p>
 <h2 id="virtual-machine-image-creation">Virtual Machine Image Creation</h2>
 <p>A command to create an image:</p>

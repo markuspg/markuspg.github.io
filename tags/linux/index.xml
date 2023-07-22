@@ -25,9 +25,9 @@
       <guid>https://markuspg.github.io/posts/qemu_commands/</guid>
       <description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
 Virtual Machine Image Creation A command to create an image:
-qemu-img create -f qcow2 -o nocow=on TestClient.img 64G The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
+qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
 Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation.</description>
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39;  The -cdrom part is only passed on installation.</description>
     </item>
     
   </channel>
