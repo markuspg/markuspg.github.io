@@ -1,205 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://markuspg.github.io/tags/museum/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/speyer/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/technik_museum_speyer/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/technology/</loc>
     <lastmod>2023-07-22T18:02:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/conservative_dependencies/</loc>
     <lastmod>2023-04-29T18:46:11+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/c/</loc>
     <lastmod>2023-04-29T18:46:11+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/linux/</loc>
     <lastmod>2023-04-29T18:46:11+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/python/</loc>
     <lastmod>2023-04-29T18:46:11+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/clevo/</loc>
     <lastmod>2022-04-29T22:35:13+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</loc>
     <lastmod>2022-04-29T22:35:13+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/repair/</loc>
     <lastmod>2022-04-29T22:35:13+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/teardown/</loc>
     <lastmod>2022-04-29T22:35:13+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/completed/</loc>
     <lastmod>2021-06-22T21:37:52+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/completed_project_patir/</loc>
     <lastmod>2021-06-22T21:37:52+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/project/</loc>
     <lastmod>2021-06-22T21:37:52+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/debian/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/uuu_within_vm/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/i.mx8/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/nxp/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/proxmox/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/qemu/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/ubuntu/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/uuu/</loc>
     <lastmod>2020-07-28T22:19:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/qemu_commands/</loc>
     <lastmod>2020-07-18T14:34:54+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/android/</loc>
     <lastmod>2020-04-09T17:24:56+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/aosp/</loc>
     <lastmod>2020-04-09T17:24:56+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</loc>
     <lastmod>2020-04-09T17:24:56+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/compiling_python_on_debian/</loc>
     <lastmod>2020-03-27T13:26:29+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/quick_aosp/</loc>
     <lastmod>2019-10-19T20:46:54+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/hp1606dn/</loc>
     <lastmod>2019-10-17T17:45:23+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/hplip/</loc>
     <lastmod>2019-10-17T17:45:23+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/c&#43;&#43;/</loc>
     <lastmod>2019-07-16T21:54:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/windows/</loc>
     <lastmod>2019-07-16T21:54:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/cppcli/</loc>
     <lastmod>2019-07-16T21:54:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/posts/init/</loc>
     <lastmod>2019-06-20T12:26:21+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/tags/untagged/</loc>
     <lastmod>2019-06-20T12:26:21+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://markuspg.github.io/about/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markuspg.github.io/categories/</loc>
   </url>
-  
 </urlset>

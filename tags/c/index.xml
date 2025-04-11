@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>c on Programming Pilgrim</title>
+    <title>C on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/c/</link>
-    <description>Recent content in c on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in C on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A praise of conservative dependency handling</title>
       <link>https://markuspg.github.io/posts/conservative_dependencies/</link>
       <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/conservative_dependencies/</guid>
       <description>Currently I work on porting GnoTime from deprecated dependencies on Gnome 2 into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old GNU Autotools. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current Debian oldstable, but during refactoring I prefer to use the most recent tooling available.</description>
     </item>
-    
   </channel>
 </rss>

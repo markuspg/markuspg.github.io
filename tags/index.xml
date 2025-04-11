@@ -1,102 +1,180 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/</link>
     <description>Recent content in Tags on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>museum</title>
+      <title>Museum</title>
       <link>https://markuspg.github.io/tags/museum/</link>
-      <pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/museum/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>speyer</title>
+      <title>Speyer</title>
       <link>https://markuspg.github.io/tags/speyer/</link>
-      <pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/speyer/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>technology</title>
+      <title>Technology</title>
       <link>https://markuspg.github.io/tags/technology/</link>
-      <pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/technology/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>c</title>
+      <title>C</title>
       <link>https://markuspg.github.io/tags/c/</link>
-      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/c/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://markuspg.github.io/tags/linux/</link>
-      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://markuspg.github.io/tags/python/</link>
-      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>clevo</title>
+      <title>Clevo</title>
       <link>https://markuspg.github.io/tags/clevo/</link>
-      <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/clevo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>repair</title>
+      <title>Repair</title>
       <link>https://markuspg.github.io/tags/repair/</link>
-      <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/repair/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>teardown</title>
+      <title>Teardown</title>
       <link>https://markuspg.github.io/tags/teardown/</link>
-      <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/teardown/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>completed</title>
+      <title>Completed</title>
       <link>https://markuspg.github.io/tags/completed/</link>
-      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/tags/completed/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Project</title>
+      <link>https://markuspg.github.io/tags/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debian</title>
+      <link>https://markuspg.github.io/tags/debian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/debian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>I.mx8</title>
+      <link>https://markuspg.github.io/tags/i.mx8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/i.mx8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nxp</title>
+      <link>https://markuspg.github.io/tags/nxp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/nxp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxmox</title>
+      <link>https://markuspg.github.io/tags/proxmox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qemu</title>
+      <link>https://markuspg.github.io/tags/qemu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/qemu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://markuspg.github.io/tags/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uuu</title>
+      <link>https://markuspg.github.io/tags/uuu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/uuu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>https://markuspg.github.io/tags/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aosp</title>
+      <link>https://markuspg.github.io/tags/aosp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/aosp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hplip</title>
+      <link>https://markuspg.github.io/tags/hplip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/hplip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://markuspg.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://markuspg.github.io/tags/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Untagged</title>
+      <link>https://markuspg.github.io/tags/untagged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markuspg.github.io/tags/untagged/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

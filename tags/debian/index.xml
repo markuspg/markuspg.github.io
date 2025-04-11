@@ -1,62 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>debian on Programming Pilgrim</title>
+    <title>Debian on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/debian/</link>
-    <description>Recent content in debian on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Debian on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
       <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
 Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
     </item>
-    
     <item>
       <title>Building Android Pie on Debian Buster</title>
       <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
       <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
       <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
 My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
     </item>
-    
     <item>
       <title>Compiling A More Recent Python Version On Debian Stretch</title>
       <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
       <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
       <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
 Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
 Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
     </item>
-    
     <item>
       <title>Quick AOSP Build</title>
       <link>https://markuspg.github.io/posts/quick_aosp/</link>
       <pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/quick_aosp/</guid>
       <description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
     </item>
-    
     <item>
       <title>(Re-)Installing a HP LaserJet P1606dn</title>
       <link>https://markuspg.github.io/posts/hp1606dn/</link>
       <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
       <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
 For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>i.mx8 on Programming Pilgrim</title>
+    <title>I.mx8 on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/i.mx8/</link>
-    <description>Recent content in i.mx8 on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in I.mx8 on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/i.mx8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/i.mx8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
       <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
 Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
     </item>
-    
   </channel>
 </rss>

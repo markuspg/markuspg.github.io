@@ -1,355 +1,110 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on Programming Pilgrim</title>
-		<link>https://markuspg.github.io/posts/</link>
-		<description>Recent content in Posts on Programming Pilgrim</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate>
-		<atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Technik Museum Speyer</title>
-			<link>https://markuspg.github.io/posts/technik_museum_speyer/</link>
-			<pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/technik_museum_speyer/</guid>
-			<description>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the Technik Museum Speyer. For me as a computer guy it&amp;rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Programming Pilgrim</title>
+    <link>https://markuspg.github.io/posts/</link>
+    <description>Recent content in Posts on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technik Museum Speyer</title>
+      <link>https://markuspg.github.io/posts/technik_museum_speyer/</link>
+      <pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/technik_museum_speyer/</guid>
+      <description>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the Technik Museum Speyer. For me as a computer guy it&amp;rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.
 With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.</description>
-			<content type="html"><![CDATA[<p>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the <a href="https://speyer.technik-museum.de/en/">Technik Museum Speyer</a>. For me as a computer guy it&rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.</p>
-<p>With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.</p>
-<p>The visitor is welcomed by a huge hall stuffed with cars, airplanes, train engines, fire engines and even a carousel. Without impatient children I guess I could get lost for a few hours just there.</p>
-<p><img src="/static/technik_museum_speyer/img_2343.jpg" alt="Overview"></p>
-<p>Fire engines are available from really early ones &hellip;</p>
-<p><img src="/static/technik_museum_speyer/img_4172.jpg" alt="An old American fire engine"></p>
-<p>&hellip; up to more recent ones like this huge one from Frankfurt Airport (next to a <a href="https://en.wikipedia.org/wiki/DUKW">DUKW</a>).</p>
-<p><img src="/static/technik_museum_speyer/img_2347.jpg" alt="A former fire engine of Frankfurt Airport and a DUKW"></p>
-<p>Next there is a huge outside area with a plentiful collection of airplanes, boats and various heavy machinery.</p>
-<p>One highlight is the <a href="https://speyer.technik-museum.de/en/submarine-u9">submarine U9</a> which can be looked at from inside too.</p>
-<p><img src="/static/technik_museum_speyer/img_2381.jpg" alt="A view from the entry to the exit of the submarine"></p>
-<p><img src="/static/technik_museum_speyer/img_2390.jpg" alt="Part of the command post"></p>
-<p>An impressive <a href="https://en.wikipedia.org/wiki/Antonov_An-22">Antonov 22</a> (the world&rsquo;s largest turboprop-powered airplane) is situated between the submarine and the next highlight, &hellip;</p>
-<p><img src="/static/technik_museum_speyer/img_2394.jpg" alt="The Antonov 22"></p>
-<p>&hellip; a <a href="https://en.wikipedia.org/wiki/Boeing_747">Boeing 747</a>! It can be entered over multiple platforms and there exists a long (although slow) slide down from the middle platform. It&rsquo;s even possible to walk on the wing which is a great experience.</p>
-<p><img src="/static/technik_museum_speyer/img_2366.jpg" alt="A long shot of the Boeing 747 and its surroundings"></p>
-<p>Another view of the beauty from the bridge of an exhibited rescue ship:</p>
-<p><img src="/static/technik_museum_speyer/img_2375.jpg" alt="The Boeing 747 seen from the exhibited rescue ship"></p>
-<p>A further big hall contains a few cars, plenty of motor cycles and a space flight exhibition with a moonlanding display and a <a href="https://en.wikipedia.org/wiki/Buran_(spacecraft)">Buran spacecraft</a>.</p>
-<p><img src="/static/technik_museum_speyer/img_2413.jpg" alt="A view of the hall from the Buran spacecraft"></p>
-<p><img src="/static/technik_museum_speyer/img_4213.jpg" alt="The Buran spacecraft"></p>
-<p>Particular dear to my fancy for old Opels is an <a href="https://en.wikipedia.org/wiki/Opel_Ascona">Opel Ascona A</a> on display which was driven by the famous German rally driver <a href="https://en.wikipedia.org/wiki/Walter_R%C3%B6hrl">Walter Röhrl</a>.</p>
-<p><img src="/static/technik_museum_speyer/img_2421.jpg" alt="An Opel Ascona A rally car driven by Walter Röhrl"></p>
-<p>Around the borders of the museum compound there are various heavy machinery and trains.</p>
-<p><img src="/static/technik_museum_speyer/img_2470.jpg" alt="A Mack trucks dump truck"></p>
-<p><img src="/static/technik_museum_speyer/img_2476.jpg" alt="A Chinese steam engine"></p>
-<p>Unfortunately in the outside area some of the exhibits are in a sad state, but I guess with such a huge collection it&rsquo;s just not feasible to keep every exhibit in shape. Still it&rsquo;s better to be able to see them rather than having them scrapped. For little children there are plenty of diversions (rides) - although basically all of them cost € 1,-. I spent the equivalent of a grown-up&rsquo;s entrance fee on each of the children most probably - but to support such a great collection I do it without regret. There is a restaurant with reasonable food for reasonable prices (about € 13,- for a Schnitzel with French fries) in the museum.</p>
-<p>My only real criticism would be that the explanations of the individual exhibits are quite scant. It would be great if there were the current texts as short introduction and maybe next in smaller font or via an app or QR code further information available.</p>
-<p>But apart of this little criticism I can whole-heartedly recommend a day-trip to this great museum (about 90 minutes South of Frankfurt am Main).</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>A praise of conservative dependency handling</title>
-			<link>https://markuspg.github.io/posts/conservative_dependencies/</link>
-			<pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/conservative_dependencies/</guid>
-			<description>Currently I work on porting GnoTime from deprecated dependencies on Gnome 2 into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old GNU Autotools. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current Debian oldstable, but during refactoring I prefer to use the most recent tooling available.</description>
-			<content type="html"><![CDATA[<p>Currently I work on porting <a href="https://gttr.sourceforge.net">GnoTime</a> from deprecated dependencies on <em>Gnome 2</em> into the modern era. The last &ldquo;feature commit&rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old <em>GNU Autotools</em>. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current <em>Debian oldstable</em>, but during refactoring I prefer to use the most recent tooling available.</p>
-<p>One major challenge in this process is that the code does not build on up-to-date Linux distributions. Out of the box it compiled only on <em>Ubuntu 12.04 (Precise Pangolin)</em> and with a minor (linkage) fix on <em>Ubuntu 14.04 (Trusty Tahr)</em> too. So the question was if <em>CMake</em> and <em>Meson</em> could be made working on these ancient distributions. I cloned their repositories and set off to try it out.</p>
-<p>Current <em>Meson</em> <code>1.1.0</code> requires at least <em>Python</em> <code>3.8</code> and <em>Ninja</em> <code>1.8.2</code> or newer. Amazingly it was possible to compile and install current <em>Python</em> <code>3.11.3</code> and <em>Ninja</em> <code>1.11.1</code> without issues on <em>Ubuntu 14.04 (Trusty Tahr)</em>. With these it was possible to build <em>GnoTime</em> with <em>Meson</em> without issues (the <em>Meson</em> branch is not upstreamed to <em>GnoTime</em> yet).</p>
-<p>For convenient integration with modern IDEs a <em>CMake</em> file has been added to the <em>GnoTime</em> project already. <em>CMake</em> is not intended as the future build system though, since <em>Meson</em> seems to be more prevalent in the ecosystem of <em>Gnome</em>. <em>CMake</em> <code>3.26.3</code> could be built and installed on <em>Ubuntu 14.04 (Trusty Tahr)</em> without issues too. Both <em>CMake</em> and <em>Meson</em> succeeded to compile a working binary of <em>GnoTime</em> in their current versions! So both can be executed in their current releases on a nearly ten year old system (although <em>Meson</em> unfairly profits from the superb dependency handling of <em>Python</em>)!!</p>
-<p>A different level will be <em>Ubuntu 12.04 (Precise Pangolin)</em>. Will both work there too? <em>Python</em> <code>3.11.1</code> fails to compile due to <code>-std=c11</code> being an unknown command line option for <code>cc</code>on <em>Ubuntu 12.04 (Precise Pangolin)</em>. Trying the <code>3.10</code> branch with <code>3.10.11</code> was successful. This is still very impressive since <em>Python</em> <code>3.10.0</code> was released in October of 2021, so more than nice years after <em>Ubuntu 12.04 (Precise Pangolin)</em> got released! <em>Ninja</em> <code>1.11.1</code> built without issues on <em>Ubuntu 12.04 (Precise Pangolin)</em> - so big respect to its developers too! The last tool missing is <em>CMake</em>. All recent <em>CMake</em> versions fail to build, due to insufficient support of modern C++ in <em>Ubuntu 12.04 (Precise Pangolin)</em>. The most recent buildable version of <em>CMake</em> is <code>3.9.6</code>. On <em>Ubuntu 12.04 (Precise Pangolin)</em> again both <em>CMake</em> (<code>3.9.6</code>) and <em>Meson</em> (<code>1.1.0</code>) succeeded to build <em>GnoTime</em>. <em>Meson</em> produces a working binary, while <em>CMake</em> fails during linking.</p>
-<p>What&rsquo;s the bottom line? In my early C++ days I tried every new latest and greatest feature. Now after a few years of programming in a professional context and dealing with all kinds of legacy code and toolchains I came to cherish a more conservative approach. It&rsquo;s more friendly to users who are bound to older hardware and toolchains and like in the case of trying to move <em>GnoTime</em> to a more recent build system while trying not to break compatibility with well seasoned <em>Ubuntu</em> releases, it really is a game changer.</p>
-<p>So thanks and respect again to the devs of <em>Python</em> and <em>Ninja</em>!</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Disassembling my TUXEDO Computers InfinityBook Pro 15 v4</title>
-			<link>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</link>
-			<pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</guid>
-			<description>Unfortunately my InfinityBook Pro 15 v4 from TUXEDO Computers GmbH recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a N15xZU from Clevo. The sticker on the underside can be seen below:
+    </item>
+    <item>
+      <title>A praise of conservative dependency handling</title>
+      <link>https://markuspg.github.io/posts/conservative_dependencies/</link>
+      <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/conservative_dependencies/</guid>
+      <description>Currently I work on porting GnoTime from deprecated dependencies on Gnome 2 into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old GNU Autotools. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current Debian oldstable, but during refactoring I prefer to use the most recent tooling available.</description>
+    </item>
+    <item>
+      <title>Disassembling my TUXEDO Computers InfinityBook Pro 15 v4</title>
+      <link>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</link>
+      <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</guid>
+      <description>Unfortunately my InfinityBook Pro 15 v4 from TUXEDO Computers GmbH recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a N15xZU from Clevo. The sticker on the underside can be seen below:
 At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step.</description>
-			<content type="html"><![CDATA[<p>Unfortunately my <em>InfinityBook Pro 15 v4</em> from <a href="https://www.tuxedocomputers.com">TUXEDO Computers GmbH</a> recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a <em>N15xZU</em> from <em>Clevo</em>. The sticker on the underside can be seen below:</p>
-<p><img src="/static/n15xzu_repair/01_underside.jpg" alt="Underside sticker"></p>
-<p>At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step. Through the hole of the yellow screw the keyboard can be lifted slightly by pressing it with a thin stick.</p>
-<p><img src="/static/n15xzu_repair/02_underside_screws.jpg" alt="Underside screws"></p>
-<p>Lifting the keyboard by pressing it from below allowed to go under it in its edges and then slowly unclip it all around. Special care has to be taken not to pluck out its cables forcefully! The brackets of the cables' sockets are to be carefully folded upwards. Mistakenly I thought they were to be pulled off in direction of the cables, but this broke the brackets off. Still the cables hold reasonably well, but it&rsquo;s better to avoid that.</p>
-<p><img src="/static/n15xzu_repair/03_keyboard_lifted.jpg" alt="The lifted keyboard">
-<img src="/static/n15xzu_repair/04_keyboard_cables.jpg" alt="The keyboard&rsquo;s cables"></p>
-<p>Below the keyboard are some more screws that need to be unscrewed before the bottom shell can be taken off.</p>
-<p><img src="/static/n15xzu_repair/05_keyboard_removed.jpg" alt="Keyboard removed"></p>
-<p>Now the mainboard is accessible, which in my case did not show any signs of damage - thanks God!</p>
-<p><img src="/static/n15xzu_repair/06_mainboard.jpg" alt="The mainboard"></p>
-<p>The logical conclusion was that the issue must be with the screen. Since the screen does not have any screws I started by carefully breaking it open along the edges and then all around. In this case special care has to be taken around the assembly of the camera to not damage it itself or its cables.</p>
-<p><img src="/static/n15xzu_repair/07_screen_corner.jpg" alt="Breaking open the screen"></p>
-<p>With the screen being broken open all around (does not sound and feel good, but it&rsquo;s still closing and holding acceptably) the culprit could be found. The plug to the screen came loose at the base of the screen itself. Unfortunately it&rsquo;s covered by some transparent glued cover. But still with some pointy device I could put enough force on the slipped out edge to push it back into place.</p>
-<p><img src="/static/n15xzu_repair/08_screen_down.jpg" alt="The laptop with the screen down"></p>
-<p>What&rsquo;s the result? The laptop feels quite flimsy now, but the screen works again :-)</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Completed Project: patir</title>
-			<link>https://markuspg.github.io/posts/completed_project_patir/</link>
-			<pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
-			<description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
+    </item>
+    <item>
+      <title>Completed Project: patir</title>
+      <link>https://markuspg.github.io/posts/completed_project_patir/</link>
+      <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
+      <description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
 The first fruit of this resolution is a refactoring of patir, a Ruby gem I use for a project at work. My contributions mostly come down to:
- extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions  </description>
-			<content type="html"><![CDATA[<p>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.</p>
-<p>The first fruit of this resolution is a refactoring of <a href="https://github.com/damphyr/patir">patir</a>, a Ruby gem I use for a project at work. My contributions mostly come down to:</p>
-<ul>
-<li>extending the coverage of its unit tests</li>
-<li>increasing its documentation&rsquo;s coverage to 100%</li>
-<li>introducing <a href="https://rubocop.org">RuboCop</a> to the project and realizing a common style and adherence to best practises</li>
-<li>updating the gem&rsquo;s dependencies to their current versions</li>
-</ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
-			<link>https://markuspg.github.io/posts/uuu_within_vm/</link>
-			<pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
-			<description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
+extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions </description>
+    </item>
+    <item>
+      <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
+      <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
+      <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
+      <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
 Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
-			<content type="html"><![CDATA[<p>For my current work project I have to integrate flashing a <em>NXP i.MX8</em> from a virtual machine running <em>Ubuntu Focal Fossa (20.04)</em> on top of a <em>QEMU</em> hypervisor on a <em>Proxmox 6.1</em> host. The flash process is done with the <a href="https://github.com/NXPmicro/mfgtools">uuu tool</a> from <em>NXPmicro</em>.</p>
-<p>Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.MX8 worked, on any further attempt the Proxmox host reset its USB and this then seemed to mess up the virtualized Ubuntu&rsquo;s USB. I tried another Linux (<em>Fedora</em>) as host and guest operating system for variety and both constellations did not improve the situation.</p>
-<p>As a last resort a <a href="https://www.amazon.de/BEYIMEI-Superspeed-3-0-Erweiterungskarte-5-15-poligem-SATA-Stromanschluss/dp/B0855QY46F/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=beyimei+usb+pci+express&amp;qid=1595968071&amp;sr=8-4">PCIe USB expansion card</a> was installed into the test rig. Now instead of forwarding the individual USB devices the PCIe USB expansion card was forwarded to the virtualized Ubuntu to let it handle its USB without interference of the host operating system.</p>
-<p>This has been working reliably for now and greatly helps our CI.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Regularly used QEMU invocations</title>
-			<link>https://markuspg.github.io/posts/qemu_commands/</link>
-			<pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/qemu_commands/</guid>
-			<description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
+    </item>
+    <item>
+      <title>Regularly used QEMU invocations</title>
+      <link>https://markuspg.github.io/posts/qemu_commands/</link>
+      <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/qemu_commands/</guid>
+      <description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
 Virtual Machine Image Creation A command to create an image:
-qemu-img create -f qcow2 -o nocow=on TestClient.img 64G  The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
+qemu-img create -f qcow2 -o nocow=on TestClient.img 64G The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
 Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39;  The -cdrom part is only passed on installation.</description>
-			<content type="html"><![CDATA[<p>This post is nothing more than a quick reference of QEMU commands for different scenarios.</p>
-<h2 id="virtual-machine-image-creation">Virtual Machine Image Creation</h2>
-<p>A command to create an image:</p>
-<pre><code>qemu-img create -f qcow2 -o nocow=on TestClient.img 64G
-</code></pre>
-<p>The <code>-o nocow=on</code> option is valid on Btrfs only and shall avoid degraded performance.</p>
-<h2 id="installing-and-running-the-guest-operating-system">Installing and Running the Guest Operating System</h2>
-<p>The image can then be installed and run with:</p>
-<pre><code>qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name 'Test Server'
-</code></pre>
-<p>The <code>-cdrom</code> part is only passed on installation. <code>-enable-kvm</code> greatly improves performance, <code>-k de</code> set the keyboard layout, <code>-m 4096</code> the memory size and the <code>-name 'Test Server'</code> adds a window title which helps telling apart multiple virtual machines.</p>
-<h2 id="sharing-a-directory-between-the-host-and-the-guest-operating-system">Sharing a Directory between the Host and the Guest Operating System</h2>
-<p>To share a directory between the host and the guest operating systems the following argument has to be added to the QEMU invocation (the user should be in the <code>qemu</code> group to run the command with elevated privileges):</p>
-<pre><code>-virtfs local,path=/home/maprasser/Downloads,mount_tag=VMTransfer,security_model=none
-</code></pre>
-<p>The shared directory can be mounted within the virtual machine with the following command (the <code>/mnt/vm_transfer</code> mount point has to exist already):</p>
-<pre><code>mount -t 9p -o trans=virtio VMTransfer /mnt/vm_transfer
-</code></pre>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Building Android Pie on Debian Buster</title>
-			<link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
-			<pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
-			<description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation.</description>
+    </item>
+    <item>
+      <title>Building Android Pie on Debian Buster</title>
+      <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
+      <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
+      <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
 My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
-			<content type="html"><![CDATA[<p>Until now I was falling back to <em>Debian 9 &ldquo;Stretch&rdquo;</em> for compiling the <em>Android Open Source Project</em>.
-This was due to the fact that compiling <em>Android 8.1 &ldquo;Oreo&rdquo;</em> failed to compile on <em>Debian 10 &ldquo;Buster&rdquo;</em> for me.</p>
-<p>My most recent project is based on <em>Android 9 &ldquo;Pie&rdquo;</em> and for this reason I wanted to give <em>Debian Buster</em> a new shot.
-And indeed - it worked!
-I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.
-After the installation I manually added the packages <code>build-essential</code>, <code>git</code>, <code>gnupg</code>, <code>libncurses5</code>, <code>libtinfo5</code>, <code>m4</code>, <code>rsync</code> and <code>zip</code> (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error).
-This seems to be the baseline package selection required to sucessfully build <em>Andoid 9 &ldquo;Pie&rdquo;</em>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Compiling A More Recent Python Version On Debian Stretch</title>
-			<link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
-			<pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
-			<description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
+    </item>
+    <item>
+      <title>Compiling A More Recent Python Version On Debian Stretch</title>
+      <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
+      <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
+      <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
 Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
 Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
-			<content type="html"><![CDATA[<p>For a current work project I&rsquo;m again dealing with building and modifying the <em>Android Open Source Project</em>.
-As usual my operating system of choice for that task is <em>Debian Stretch</em> (9.12).</p>
-<p>Since my last Android builds Google&rsquo;s <code>repo</code> tool for organizing the multitude of repositories that are needed for an Android build got finally updated from <em>Python 2</em> to <em>Python 3</em> (and that seemingly straight to <em>Python 3.6</em>).</p>
-<p>Therefore on every invocation of <code>repo init</code> I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?).
-Fortunately Python makes it really easy to have multiple versions installed in parallel as explained in the following.</p>
-<p>First the <em>cpython</em> repository has to be cloned and to be changed into.</p>
-<pre><code>git clone https://github.com/python/cpython.git
-cd cpython
-</code></pre>
-<p>In this example version <code>3.7.7</code> of the <em>cpython</em> Python implementation shall be build (this is the most recent one as of writing).
-<em>cpython</em> can be checked out like this:</p>
-<pre><code>git checkout v3.7.7
-</code></pre>
-<p>All configuration options for the build can be shown by the <code>--help</code> argument for <em>configure</em>.</p>
-<pre><code>./configure --help | less
-</code></pre>
-<p><em>cpython</em> offers the possibility to rely on the operating system&rsquo;s libraries instead of those being included with the sources of <em>cpython</em>.
-These can be installed on Debian through <code>apt</code>.</p>
-<pre><code>apt install libexpat1-dev libffi-dev libmpdec-dev
-</code></pre>
-<p>Afterwards the build can be configured, executed and installed with these commands:</p>
-<pre><code>./configure --enable-optimizations --with-system-expat  --with-system-ffi --with-system-libmpdec
-make
-sudo make altinstall
-</code></pre>
-<p><code>make altinstall</code> installs the <em>cpython</em> Python interpreter with a version suffix to not collide with the default system one.
-To use specifically the newly installed <em>cpython</em> interpreter a virtual environment is created and then activated before running the commands that require a newer Python version.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Quick AOSP Build</title>
-			<link>https://markuspg.github.io/posts/quick_aosp/</link>
-			<pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/quick_aosp/</guid>
-			<description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
-			<content type="html"><![CDATA[<p>This is an attempt at trying out how fast AOSP can be built for a <em>Nexus 5X</em> from scratch including setting up a virtual machine with <em>Debian Stretch</em> in which the build will be done.
-For virtualization <em>VMware Workstation 15 Player</em> was used on a <em>Windows 10 v1809</em> running on a <em>DELL</em> laptop with an <em>Intel Core i9-8950HK</em> and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</p>
-<p>Start: ~19:30</p>
-<p>First <em>Debian Stretch</em> was set up as default network install including the <em>Gnome</em> desktop environment.
-As a baseline of development packages install the following ones:</p>
-<pre><code>sudo apt install bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf lib32z-dev lib32ncurses5-dev libc6-dev-i386 libgl1-mesa-dev libx11-dev libxml2-utils m4 make openjdk-8-jdk open-vm-tools open-vm-tools-desktop unzip vim x11proto-core-dev xsltproc zip zlib1g-dev
-</code></pre>
-<p>Create a <code>bin</code> directory in your home directory and add it to your <code>PATH</code>.</p>
-<pre><code>mkdir ~/bin
-PATH=~/bin:$PATH
-</code></pre>
-<p>Google developed an own tool for handling the multitude of <em>Git</em> repositories which all combined make up the Android sources. This tool is called <code>repo</code> and can be installed to your <code>bin</code> directory with the following commands:</p>
-<pre><code>curl https://storage.googleapis.com/git-repo-downloads/repo &gt; ~/bin/repo
-chmod a+x ~/bin/repo
-</code></pre>
-<p>Check if <code>sha256sum ~/bin/repo</code> equals <code>d06f33115aea44e583c8669375b35aad397176a411de3461897444d247b6c220</code> (as of <em>repo</em> 1.25) and make the <code>repo</code> binary executable.</p>
-<pre><code>chmod a+x ~/bin/repo
-</code></pre>
-<p>Create a working directory for all the <em>Android</em> sources and change into it:</p>
-<pre><code>mkdir ~/aosp
-cd ~/aosp
-</code></pre>
-<p>Configure your <em>Git</em> user:</p>
-<pre><code>git config --global user.name &quot;Your Name&quot;
-git config --global user.email &quot;you@example.com&quot;
-</code></pre>
-<p>Initialize the working directory (without the <code>-b android-8.1.0_r46</code> you get Android&rsquo;s current master):</p>
-<pre><code>repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r46
-repo sync
-</code></pre>
-<p>For finding the correct device driver binaries the tag has to be mapped to the correct build through <a href="https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds">this table</a>. <code>android-8.1.0_r46</code> is mapped to <code>OPM6.171019.030.K1</code>.</p>
-<p>The driver binaries for Nexus and Pixel devices can be obtained <a href="https://developers.google.com/android/drivers">here</a>.
-Download both files for the <em>Nexus 5X</em> and the build <code>OPM6.171019.030.K1</code> and verify their checksums.</p>
-<p>These self extracting scripts can be run as follows:</p>
-<pre><code>cp -v ~/Downloads/extract-* .
-./extract-lge-bullhead.sh
-./extract-qcom-bullhead.sh
-</code></pre>
-<p>The actual build is started with these commands (the appended <code>aplay</code> command is only for an audible notification when the build is done):</p>
-<pre><code>source build/envsetup.sh
-lunch aosp_bullhead-userdebug
-m -j12 &amp;&amp; paplay /usr/share/sounds/freedesktop/stereo/complete.oga
-</code></pre>
-<p>To be able to access the phone copy <a href="https://raw.githubusercontent.com/M0Rf30/android-udev-rules/master/51-android.rules">this</a> rules file to <code>/etc/udev/rules.d/</code>.</p>
-<p>If your <em>Nexus 5X</em> has not been unlocked yet, you have to do this step first (Google is your friend).
-Last you can flash the built Android system by running:</p>
-<pre><code>fastboot flashall -w
-</code></pre>
-<p>Finish: 00:10</p>
-<p>4:40 for building a custom Android image (not my first try though).
-I&rsquo;m most impressed with the performance of my laptop, especially since I lost about 45 minutes fiddling with a problem caused by packages I had forgotten to install ;-)</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>(Re-)Installing a HP LaserJet P1606dn</title>
-			<link>https://markuspg.github.io/posts/hp1606dn/</link>
-			<pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/hp1606dn/</guid>
-			<description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
+    </item>
+    <item>
+      <title>Quick AOSP Build</title>
+      <link>https://markuspg.github.io/posts/quick_aosp/</link>
+      <pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/quick_aosp/</guid>
+      <description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
+    </item>
+    <item>
+      <title>(Re-)Installing a HP LaserJet P1606dn</title>
+      <link>https://markuspg.github.io/posts/hp1606dn/</link>
+      <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
+      <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
 For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
-			<content type="html"><![CDATA[<p>As about every two years I upgraded my mother&rsquo;s computer to the newest Debian release.
-This time from <em>Stretch</em> to <em>Buster</em> (thanks to the Debian community for this great release again!).</p>
-<p>For years I bought <em>HP</em> printers because they worked really nice with Linux.
-Last I bought a <em>HP LaserJet P1606dn</em>.
-This one harmed the Linux happiness.
-It needs some binary plugin and this regularly is a pain to install.</p>
-<p>The upgrade broke the previously working installed printer.
-So I set off to install it again.
-I tried installing the plugin again and again with <code>hp-plugin</code> and <code>hp-setup</code>.
-Both tools again and again told me the plugin was successfully installed but on the next call they requested installation again.</p>
-<p>After some googling I found <a href="https://www.linuxquestions.org/questions/linux-software-2/hplip-keeps-looping-at-plug-in-installation-4175647505/">this post</a> on <a href="https://www.linuxquestions.org">linuxquestions.org</a>.
-I tried running <code>hp-setup</code> with the <code>-g</code> flag and also found some files missing.
-After running these commands everything worked fine:</p>
-<pre><code>ln -s /usr/lib/sane /usr/lib/i386-linux-gnu/sane
-mkdir /usr/lib64/x86_64-linux-gnu
-ln -s /usr/lib64/sane /usr/lib64/x86_64-linux-gnu/sane
-</code></pre>
-<p>Thanks to <em>zaskar_84</em>!</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Wrapping a C&#43;&#43; SDK with C&#43;&#43;/CLI</title>
-			<link>https://markuspg.github.io/posts/cppcli/</link>
-			<pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/cppcli/</guid>
-			<description>Recently at work I had to wrap a C++ SDK for usage in C#. My first try was using P/Invoke which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on C linkage). Therefore my coworkers and me decided to utilize C++/CLI for which an introduction can be found here.
+    </item>
+    <item>
+      <title>Wrapping a C&#43;&#43; SDK with C&#43;&#43;/CLI</title>
+      <link>https://markuspg.github.io/posts/cppcli/</link>
+      <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/cppcli/</guid>
+      <description>Recently at work I had to wrap a C++ SDK for usage in C#. My first try was using P/Invoke which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on C linkage). Therefore my coworkers and me decided to utilize C++/CLI for which an introduction can be found here.
 One basic problem is how to embed the unmanaged C++ classes from the SDK in managed C++/CLI ones.</description>
-			<content type="html"><![CDATA[<p>Recently at work I had to wrap a C++ SDK for usage in C#.
-My first try was using <em>P/Invoke</em> which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on <em>C</em> linkage).
-Therefore my coworkers and me decided to utilize <em>C++/CLI</em> for which an introduction can be found <a href="https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=vs-2019">here</a>.</p>
-<p>One basic problem is how to embed the <em>unmanaged C++</em> classes from the SDK in <em>managed C++/CLI</em> ones.
-Fortunately managed classes can have pointers to unmanaged objects as private data members, so I created the base class of the inheritance hierarchy mirroring the SDK&rsquo;s inheritance hierarchy like this:</p>
-<pre><code>public ref class WrapperObject {
-public:
-    WrapperObject(SdkObject *const argObj) :
-        obj(argObj)
-    {}
-    # The destructor should do nothing more than calling the finalizer
-    virtual ~WrapperObject() { this-&gt;!WrapperObject(); }
-    # The finalizer frees the internally held unmanaged object's instance
-    !WrapperObject() { delete obj; }
-
-    void DoSomething() { obj-&gt;DoSomething(); }
-
-private:
-    SdkObject *obj = nullptr;
-};
-</code></pre>
-<p>The <code>void DoSomething()</code> member function gives an example how the managed object can forward calls to the unmanaged object.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Init</title>
-			<link>https://markuspg.github.io/posts/init/</link>
-			<pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
-			
-			<guid>https://markuspg.github.io/posts/init/</guid>
-			<description>This is just a test. Hello World!</description>
-			<content type="html"><![CDATA[<p>This is just a test. Hello World!</p>
-]]></content>
-		</item>
-		
-	</channel>
+    </item>
+    <item>
+      <title>Init</title>
+      <link>https://markuspg.github.io/posts/init/</link>
+      <pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
+      <guid>https://markuspg.github.io/posts/init/</guid>
+      <description>This is just a test. Hello World!</description>
+    </item>
+  </channel>
 </rss>

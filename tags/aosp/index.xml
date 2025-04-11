@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>aosp on Programming Pilgrim</title>
+    <title>Aosp on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/aosp/</link>
-    <description>Recent content in aosp on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Aosp on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 17:24:56 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/aosp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2020 17:24:56 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/aosp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Android Pie on Debian Buster</title>
       <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
       <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
       <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
 My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
     </item>
-    
     <item>
       <title>Compiling A More Recent Python Version On Debian Stretch</title>
       <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
       <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
       <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
 Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
 Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
     </item>
-    
   </channel>
 </rss>

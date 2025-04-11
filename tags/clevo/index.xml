@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>clevo on Programming Pilgrim</title>
+    <title>Clevo on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/clevo/</link>
-    <description>Recent content in clevo on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Clevo on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 29 Apr 2022 22:35:13 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/clevo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 22:35:13 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/clevo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disassembling my TUXEDO Computers InfinityBook Pro 15 v4</title>
       <link>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</link>
       <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</guid>
       <description>Unfortunately my InfinityBook Pro 15 v4 from TUXEDO Computers GmbH recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a N15xZU from Clevo. The sticker on the underside can be seen below:
 At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step.</description>
     </item>
-    
   </channel>
 </rss>

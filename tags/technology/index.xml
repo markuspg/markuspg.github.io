@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>technology on Programming Pilgrim</title>
+    <title>Technology on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/technology/</link>
-    <description>Recent content in technology on Programming Pilgrim</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Technology on Programming Pilgrim</description>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate><atom:link href="https://markuspg.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate>
+    <atom:link href="https://markuspg.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technik Museum Speyer</title>
       <link>https://markuspg.github.io/posts/technik_museum_speyer/</link>
       <pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
-      
       <guid>https://markuspg.github.io/posts/technik_museum_speyer/</guid>
       <description>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the Technik Museum Speyer. For me as a computer guy it&amp;rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.
 With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.</description>
     </item>
-    
   </channel>
 </rss>
