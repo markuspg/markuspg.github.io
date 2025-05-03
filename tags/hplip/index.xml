@@ -4,7 +4,7 @@
     <title>Hplip on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/hplip/</link>
     <description>Recent content in Hplip on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Oct 2019 17:45:23 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/hplip/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,12 @@
       <link>https://markuspg.github.io/posts/hp1606dn/</link>
       <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
-      <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
-For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
+      <description>&lt;p&gt;As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release.
+This time from &lt;em&gt;Stretch&lt;/em&gt; to &lt;em&gt;Buster&lt;/em&gt; (thanks to the Debian community for this great release again!).&lt;/p&gt;
+&lt;p&gt;For years I bought &lt;em&gt;HP&lt;/em&gt; printers because they worked really nice with Linux.
+Last I bought a &lt;em&gt;HP LaserJet P1606dn&lt;/em&gt;.
+This one harmed the Linux happiness.
+It needs some binary plugin and this regularly is a pain to install.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

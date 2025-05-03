@@ -4,7 +4,7 @@
     <title>Python on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/python/</link>
     <description>Recent content in Python on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Apr 2023 18:46:11 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
@@ -13,16 +13,18 @@
       <link>https://markuspg.github.io/posts/conservative_dependencies/</link>
       <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/conservative_dependencies/</guid>
-      <description>Currently I work on porting GnoTime from deprecated dependencies on Gnome 2 into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old GNU Autotools. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current Debian oldstable, but during refactoring I prefer to use the most recent tooling available.</description>
+      <description>&lt;p&gt;Currently I work on porting &lt;a href=&#34;https://gttr.sourceforge.net&#34;&gt;GnoTime&lt;/a&gt; from deprecated dependencies on &lt;em&gt;Gnome 2&lt;/em&gt; into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old &lt;em&gt;GNU Autotools&lt;/em&gt;. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current &lt;em&gt;Debian oldstable&lt;/em&gt;, but during refactoring I prefer to use the most recent tooling available.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compiling A More Recent Python Version On Debian Stretch</title>
       <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
       <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
-      <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
-Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
-Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
+      <description>&lt;p&gt;For a current work project I&amp;rsquo;m again dealing with building and modifying the &lt;em&gt;Android Open Source Project&lt;/em&gt;.
+As usual my operating system of choice for that task is &lt;em&gt;Debian Stretch&lt;/em&gt; (9.12).&lt;/p&gt;
+&lt;p&gt;Since my last Android builds Google&amp;rsquo;s &lt;code&gt;repo&lt;/code&gt; tool for organizing the multitude of repositories that are needed for an Android build got finally updated from &lt;em&gt;Python 2&lt;/em&gt; to &lt;em&gt;Python 3&lt;/em&gt; (and that seemingly straight to &lt;em&gt;Python 3.6&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Therefore on every invocation of &lt;code&gt;repo init&lt;/code&gt; I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?).
+Fortunately Python makes it really easy to have multiple versions installed in parallel as explained in the following.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

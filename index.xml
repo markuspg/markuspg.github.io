@@ -4,7 +4,7 @@
     <title>Programming Pilgrim</title>
     <link>https://markuspg.github.io/</link>
     <description>Recent content on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Jul 2023 18:02:45 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -13,108 +13,144 @@
       <link>https://markuspg.github.io/posts/technik_museum_speyer/</link>
       <pubDate>Sat, 22 Jul 2023 18:02:45 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/technik_museum_speyer/</guid>
-      <description>Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the Technik Museum Speyer. For me as a computer guy it&amp;rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.
-With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.</description>
+      <description>&lt;p&gt;Recently I had the special joy of visiting one of my favourite museums again after I guess about 15 years - the &lt;a href=&#34;https://speyer.technik-museum.de/en/&#34;&gt;Technik Museum Speyer&lt;/a&gt;. For me as a computer guy it&amp;rsquo;s a welcome diversion to see and study something physical instead of just immaterial thoughts and ideas.&lt;/p&gt;
+&lt;p&gt;With this post I want to give a concise overview of the hightlights of the vast and varied collection of the museum.&lt;/p&gt;
+&lt;p&gt;The visitor is welcomed by a huge hall stuffed with cars, airplanes, train engines, fire engines and even a carousel. Without impatient children I guess I could get lost for a few hours just there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A praise of conservative dependency handling</title>
       <link>https://markuspg.github.io/posts/conservative_dependencies/</link>
       <pubDate>Sat, 29 Apr 2023 18:46:11 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/conservative_dependencies/</guid>
-      <description>Currently I work on porting GnoTime from deprecated dependencies on Gnome 2 into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old GNU Autotools. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current Debian oldstable, but during refactoring I prefer to use the most recent tooling available.</description>
+      <description>&lt;p&gt;Currently I work on porting &lt;a href=&#34;https://gttr.sourceforge.net&#34;&gt;GnoTime&lt;/a&gt; from deprecated dependencies on &lt;em&gt;Gnome 2&lt;/em&gt; into the modern era. The last &amp;ldquo;feature commit&amp;rdquo; before the refactoring was in 2013 - so the dependencies are quite ancient. Likewise the build system is good old &lt;em&gt;GNU Autotools&lt;/em&gt;. So apart of upgrading the dependencies porting the build to a more modern build system would be a worthwhile effort. For my own projects I try to keep the dependencies compatible to current &lt;em&gt;Debian oldstable&lt;/em&gt;, but during refactoring I prefer to use the most recent tooling available.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Disassembling my TUXEDO Computers InfinityBook Pro 15 v4</title>
       <link>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</link>
       <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</guid>
-      <description>Unfortunately my InfinityBook Pro 15 v4 from TUXEDO Computers GmbH recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a N15xZU from Clevo. The sticker on the underside can be seen below:
-At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step.</description>
+      <description>&lt;p&gt;Unfortunately my &lt;em&gt;InfinityBook Pro 15 v4&lt;/em&gt; from &lt;a href=&#34;https://www.tuxedocomputers.com&#34;&gt;TUXEDO Computers GmbH&lt;/a&gt; recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a &lt;em&gt;N15xZU&lt;/em&gt; from &lt;em&gt;Clevo&lt;/em&gt;. The sticker on the underside can be seen below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Underside sticker&#34; loading=&#34;lazy&#34; src=&#34;https://markuspg.github.io/static/n15xzu_repair/01_underside.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step. Through the hole of the yellow screw the keyboard can be lifted slightly by pressing it with a thin stick.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Completed Project: patir</title>
       <link>https://markuspg.github.io/posts/completed_project_patir/</link>
       <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
-      <description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
-The first fruit of this resolution is a refactoring of patir, a Ruby gem I use for a project at work. My contributions mostly come down to:
-extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions </description>
+      <description>&lt;p&gt;Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.&lt;/p&gt;
+&lt;p&gt;The first fruit of this resolution is a refactoring of &lt;a href=&#34;https://github.com/damphyr/patir&#34;&gt;patir&lt;/a&gt;, a Ruby gem I use for a project at work. My contributions mostly come down to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;extending the coverage of its unit tests&lt;/li&gt;
+&lt;li&gt;increasing its documentation&amp;rsquo;s coverage to 100%&lt;/li&gt;
+&lt;li&gt;introducing &lt;a href=&#34;https://rubocop.org&#34;&gt;RuboCop&lt;/a&gt; to the project and realizing a common style and adherence to best practises&lt;/li&gt;
+&lt;li&gt;updating the gem&amp;rsquo;s dependencies to their current versions&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Flashing with uuu from within a QEMU Hosted Linux VM</title>
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
-      <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
-Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
+      <description>&lt;p&gt;For my current work project I have to integrate flashing a &lt;em&gt;NXP i.MX8&lt;/em&gt; from a virtual machine running &lt;em&gt;Ubuntu Focal Fossa (20.04)&lt;/em&gt; on top of a &lt;em&gt;QEMU&lt;/em&gt; hypervisor on a &lt;em&gt;Proxmox 6.1&lt;/em&gt; host. The flash process is done with the &lt;a href=&#34;https://github.com/NXPmicro/mfgtools&#34;&gt;uuu tool&lt;/a&gt; from &lt;em&gt;NXPmicro&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.MX8 worked, on any further attempt the Proxmox host reset its USB and this then seemed to mess up the virtualized Ubuntu&amp;rsquo;s USB. I tried another Linux (&lt;em&gt;Fedora&lt;/em&gt;) as host and guest operating system for variety and both constellations did not improve the situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Regularly used QEMU invocations</title>
       <link>https://markuspg.github.io/posts/qemu_commands/</link>
       <pubDate>Sat, 18 Jul 2020 14:34:54 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/qemu_commands/</guid>
-      <description>This post is nothing more than a quick reference of QEMU commands for different scenarios.
-Virtual Machine Image Creation A command to create an image:
-qemu-img create -f qcow2 -o nocow=on TestClient.img 64G The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
-Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation.</description>
+      <description>&lt;p&gt;This post is nothing more than a quick reference of QEMU commands for different scenarios.&lt;/p&gt;
+&lt;h2 id=&#34;virtual-machine-image-creation&#34;&gt;Virtual Machine Image Creation&lt;/h2&gt;
+&lt;p&gt;A command to create an image:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;qemu-img create -f qcow2 -o nocow=on TestClient.img 64G
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;-o nocow=on&lt;/code&gt; option is valid on Btrfs only and shall avoid degraded performance.&lt;/p&gt;
+&lt;h2 id=&#34;installing-and-running-the-guest-operating-system&#34;&gt;Installing and Running the Guest Operating System&lt;/h2&gt;
+&lt;p&gt;The image can then be installed and run with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;-cdrom&lt;/code&gt; part is only passed on installation. &lt;code&gt;-enable-kvm&lt;/code&gt; greatly improves performance, &lt;code&gt;-k de&lt;/code&gt; set the keyboard layout, &lt;code&gt;-m 4096&lt;/code&gt; the memory size and the &lt;code&gt;-name &#39;Test Server&#39;&lt;/code&gt; adds a window title which helps telling apart multiple virtual machines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building Android Pie on Debian Buster</title>
       <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
       <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
-      <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
-My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
+      <description>&lt;p&gt;Until now I was falling back to &lt;em&gt;Debian 9 &amp;ldquo;Stretch&amp;rdquo;&lt;/em&gt; for compiling the &lt;em&gt;Android Open Source Project&lt;/em&gt;.
+This was due to the fact that compiling &lt;em&gt;Android 8.1 &amp;ldquo;Oreo&amp;rdquo;&lt;/em&gt; failed to compile on &lt;em&gt;Debian 10 &amp;ldquo;Buster&amp;rdquo;&lt;/em&gt; for me.&lt;/p&gt;
+&lt;p&gt;My most recent project is based on &lt;em&gt;Android 9 &amp;ldquo;Pie&amp;rdquo;&lt;/em&gt; and for this reason I wanted to give &lt;em&gt;Debian Buster&lt;/em&gt; a new shot.
+And indeed - it worked!
+I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.
+After the installation I manually added the packages &lt;code&gt;build-essential&lt;/code&gt;, &lt;code&gt;git&lt;/code&gt;, &lt;code&gt;gnupg&lt;/code&gt;, &lt;code&gt;libncurses5&lt;/code&gt;, &lt;code&gt;libtinfo5&lt;/code&gt;, &lt;code&gt;m4&lt;/code&gt;, &lt;code&gt;rsync&lt;/code&gt; and &lt;code&gt;zip&lt;/code&gt; (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error).
+This seems to be the baseline package selection required to sucessfully build &lt;em&gt;Andoid 9 &amp;ldquo;Pie&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compiling A More Recent Python Version On Debian Stretch</title>
       <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
       <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
-      <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
-Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
-Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
+      <description>&lt;p&gt;For a current work project I&amp;rsquo;m again dealing with building and modifying the &lt;em&gt;Android Open Source Project&lt;/em&gt;.
+As usual my operating system of choice for that task is &lt;em&gt;Debian Stretch&lt;/em&gt; (9.12).&lt;/p&gt;
+&lt;p&gt;Since my last Android builds Google&amp;rsquo;s &lt;code&gt;repo&lt;/code&gt; tool for organizing the multitude of repositories that are needed for an Android build got finally updated from &lt;em&gt;Python 2&lt;/em&gt; to &lt;em&gt;Python 3&lt;/em&gt; (and that seemingly straight to &lt;em&gt;Python 3.6&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Therefore on every invocation of &lt;code&gt;repo init&lt;/code&gt; I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?).
+Fortunately Python makes it really easy to have multiple versions installed in parallel as explained in the following.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quick AOSP Build</title>
       <link>https://markuspg.github.io/posts/quick_aosp/</link>
       <pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/quick_aosp/</guid>
-      <description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
+      <description>&lt;p&gt;This is an attempt at trying out how fast AOSP can be built for a &lt;em&gt;Nexus 5X&lt;/em&gt; from scratch including setting up a virtual machine with &lt;em&gt;Debian Stretch&lt;/em&gt; in which the build will be done.
+For virtualization &lt;em&gt;VMware Workstation 15 Player&lt;/em&gt; was used on a &lt;em&gt;Windows 10 v1809&lt;/em&gt; running on a &lt;em&gt;DELL&lt;/em&gt; laptop with an &lt;em&gt;Intel Core i9-8950HK&lt;/em&gt; and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).&lt;/p&gt;</description>
     </item>
     <item>
       <title>(Re-)Installing a HP LaserJet P1606dn</title>
       <link>https://markuspg.github.io/posts/hp1606dn/</link>
       <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
-      <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
-For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
+      <description>&lt;p&gt;As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release.
+This time from &lt;em&gt;Stretch&lt;/em&gt; to &lt;em&gt;Buster&lt;/em&gt; (thanks to the Debian community for this great release again!).&lt;/p&gt;
+&lt;p&gt;For years I bought &lt;em&gt;HP&lt;/em&gt; printers because they worked really nice with Linux.
+Last I bought a &lt;em&gt;HP LaserJet P1606dn&lt;/em&gt;.
+This one harmed the Linux happiness.
+It needs some binary plugin and this regularly is a pain to install.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wrapping a C&#43;&#43; SDK with C&#43;&#43;/CLI</title>
       <link>https://markuspg.github.io/posts/cppcli/</link>
       <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/cppcli/</guid>
-      <description>Recently at work I had to wrap a C++ SDK for usage in C#. My first try was using P/Invoke which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on C linkage). Therefore my coworkers and me decided to utilize C++/CLI for which an introduction can be found here.
-One basic problem is how to embed the unmanaged C++ classes from the SDK in managed C++/CLI ones.</description>
+      <description>&lt;p&gt;Recently at work I had to wrap a C++ SDK for usage in C#.
+My first try was using &lt;em&gt;P/Invoke&lt;/em&gt; which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on &lt;em&gt;C&lt;/em&gt; linkage).
+Therefore my coworkers and me decided to utilize &lt;em&gt;C++/CLI&lt;/em&gt; for which an introduction can be found &lt;a href=&#34;https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=vs-2019&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One basic problem is how to embed the &lt;em&gt;unmanaged C++&lt;/em&gt; classes from the SDK in &lt;em&gt;managed C++/CLI&lt;/em&gt; ones.
+Fortunately managed classes can have pointers to unmanaged objects as private data members, so I created the base class of the inheritance hierarchy mirroring the SDK&amp;rsquo;s inheritance hierarchy like this:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Init</title>
       <link>https://markuspg.github.io/posts/init/</link>
       <pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/init/</guid>
-      <description>This is just a test. Hello World!</description>
+      <description>&lt;p&gt;This is just a test. Hello World!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>https://markuspg.github.io/about/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://markuspg.github.io/about/</guid>
-      <description>This page is mainly intended as a publicly accessible notebook of mine. If the stuff which will be accumulated here is useful for anyone else I&amp;rsquo;m happy.
-The page is powered by Hugo which is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
-https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
+      <description>&lt;p&gt;This page is mainly intended as a publicly accessible notebook of mine.
+If the stuff which will be accumulated here is useful for anyone else I&amp;rsquo;m happy.&lt;/p&gt;
+&lt;p&gt;The page is powered by Hugo which is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;https://github.com/russross/blackfriday&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

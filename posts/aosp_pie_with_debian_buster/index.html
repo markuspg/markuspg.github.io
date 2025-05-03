@@ -7,11 +7,16 @@
 <meta name="robots" content="index, follow">
 <title>Building Android Pie on Debian Buster | Programming Pilgrim</title>
 <meta name="keywords" content="android, aosp, debian">
-<meta name="description" content="Until now I was falling back to Debian 9 &ldquo;Stretch&rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &ldquo;Oreo&rdquo; failed to compile on Debian 10 &ldquo;Buster&rdquo; for me.
-My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.">
+<meta name="description" content="Until now I was falling back to Debian 9 &ldquo;Stretch&rdquo; for compiling the Android Open Source Project.
+This was due to the fact that compiling Android 8.1 &ldquo;Oreo&rdquo; failed to compile on Debian 10 &ldquo;Buster&rdquo; for me.
+My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reason I wanted to give Debian Buster a new shot.
+And indeed - it worked!
+I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.
+After the installation I manually added the packages build-essential, git, gnupg, libncurses5, libtinfo5, m4, rsync and zip (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error).
+This seems to be the baseline package selection required to sucessfully build Andoid 9 &ldquo;Pie&rdquo;.">
 <meta name="author" content="">
 <link rel="canonical" href="https://markuspg.github.io/posts/aosp_pie_with_debian_buster/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://markuspg.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://markuspg.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://markuspg.github.io/favicon-32x32.png">
@@ -56,21 +61,28 @@ My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reas
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Building Android Pie on Debian Buster" />
-<meta property="og:description" content="Until now I was falling back to Debian 9 &ldquo;Stretch&rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &ldquo;Oreo&rdquo; failed to compile on Debian 10 &ldquo;Buster&rdquo; for me.
-My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://markuspg.github.io/posts/aosp_pie_with_debian_buster/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-04-09T17:24:56+02:00" />
-<meta property="article:modified_time" content="2020-04-09T17:24:56+02:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Building Android Pie on Debian Buster"/>
-<meta name="twitter:description" content="Until now I was falling back to Debian 9 &ldquo;Stretch&rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &ldquo;Oreo&rdquo; failed to compile on Debian 10 &ldquo;Buster&rdquo; for me.
-My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector."/>
+</noscript><meta property="og:url" content="https://markuspg.github.io/posts/aosp_pie_with_debian_buster/">
+  <meta property="og:site_name" content="Programming Pilgrim">
+  <meta property="og:title" content="Building Android Pie on Debian Buster">
+  <meta property="og:description" content="Until now I was falling back to Debian 9 “Stretch” for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 “Oreo” failed to compile on Debian 10 “Buster” for me.
+My most recent project is based on Android 9 “Pie” and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector. After the installation I manually added the packages build-essential, git, gnupg, libncurses5, libtinfo5, m4, rsync and zip (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error). This seems to be the baseline package selection required to sucessfully build Andoid 9 “Pie”.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-04-09T17:24:56+02:00">
+    <meta property="article:modified_time" content="2020-04-09T17:24:56+02:00">
+    <meta property="article:tag" content="Android">
+    <meta property="article:tag" content="Aosp">
+    <meta property="article:tag" content="Debian">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Building Android Pie on Debian Buster">
+<meta name="twitter:description" content="Until now I was falling back to Debian 9 &ldquo;Stretch&rdquo; for compiling the Android Open Source Project.
+This was due to the fact that compiling Android 8.1 &ldquo;Oreo&rdquo; failed to compile on Debian 10 &ldquo;Buster&rdquo; for me.
+My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reason I wanted to give Debian Buster a new shot.
+And indeed - it worked!
+I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.
+After the installation I manually added the packages build-essential, git, gnupg, libncurses5, libtinfo5, m4, rsync and zip (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error).
+This seems to be the baseline package selection required to sucessfully build Andoid 9 &ldquo;Pie&rdquo;.">
 
 
 <script type="application/ld+json">
@@ -99,7 +111,7 @@ My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reas
   "@type": "BlogPosting",
   "headline": "Building Android Pie on Debian Buster",
   "name": "Building Android Pie on Debian Buster",
-  "description": "Until now I was falling back to Debian 9 \u0026ldquo;Stretch\u0026rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 \u0026ldquo;Oreo\u0026rdquo; failed to compile on Debian 10 \u0026ldquo;Buster\u0026rdquo; for me.\nMy most recent project is based on Android 9 \u0026ldquo;Pie\u0026rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.",
+  "description": "Until now I was falling back to Debian 9 \u0026ldquo;Stretch\u0026rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 \u0026ldquo;Oreo\u0026rdquo; failed to compile on Debian 10 \u0026ldquo;Buster\u0026rdquo; for me.\nMy most recent project is based on Android 9 \u0026ldquo;Pie\u0026rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector. After the installation I manually added the packages build-essential, git, gnupg, libncurses5, libtinfo5, m4, rsync and zip (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error). This seems to be the baseline package selection required to sucessfully build Andoid 9 \u0026ldquo;Pie\u0026rdquo;.\n",
   "keywords": [
     "android", "aosp", "debian"
   ],
@@ -141,7 +153,7 @@ My most recent project is based on Android 9 &ldquo;Pie&rdquo; and for this reas
         <div class="logo">
             <a href="https://markuspg.github.io/" accesskey="h" title="Programming Pilgrim (Alt + H)">Programming Pilgrim</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">

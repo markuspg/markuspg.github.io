@@ -4,7 +4,7 @@
     <title>Untagged on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/untagged/</link>
     <description>Recent content in Untagged on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2019 12:26:21 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://markuspg.github.io/posts/init/</link>
       <pubDate>Thu, 20 Jun 2019 12:26:21 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/init/</guid>
-      <description>This is just a test. Hello World!</description>
+      <description>&lt;p&gt;This is just a test. Hello World!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

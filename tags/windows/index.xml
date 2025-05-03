@@ -4,7 +4,7 @@
     <title>Windows on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/windows/</link>
     <description>Recent content in Windows on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Jul 2019 21:54:45 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,11 @@
       <link>https://markuspg.github.io/posts/cppcli/</link>
       <pubDate>Tue, 16 Jul 2019 21:54:45 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/cppcli/</guid>
-      <description>Recently at work I had to wrap a C++ SDK for usage in C#. My first try was using P/Invoke which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on C linkage). Therefore my coworkers and me decided to utilize C++/CLI for which an introduction can be found here.
-One basic problem is how to embed the unmanaged C++ classes from the SDK in managed C++/CLI ones.</description>
+      <description>&lt;p&gt;Recently at work I had to wrap a C++ SDK for usage in C#.
+My first try was using &lt;em&gt;P/Invoke&lt;/em&gt; which seems to be the more portable way but soon this approach prove to be far too limited (through having to rely only on &lt;em&gt;C&lt;/em&gt; linkage).
+Therefore my coworkers and me decided to utilize &lt;em&gt;C++/CLI&lt;/em&gt; for which an introduction can be found &lt;a href=&#34;https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=vs-2019&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One basic problem is how to embed the &lt;em&gt;unmanaged C++&lt;/em&gt; classes from the SDK in &lt;em&gt;managed C++/CLI&lt;/em&gt; ones.
+Fortunately managed classes can have pointers to unmanaged objects as private data members, so I created the base class of the inheritance hierarchy mirroring the SDK&amp;rsquo;s inheritance hierarchy like this:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

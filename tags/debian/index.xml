@@ -4,7 +4,7 @@
     <title>Debian on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/debian/</link>
     <description>Recent content in Debian on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
@@ -13,40 +13,52 @@
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
-      <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
-Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
+      <description>&lt;p&gt;For my current work project I have to integrate flashing a &lt;em&gt;NXP i.MX8&lt;/em&gt; from a virtual machine running &lt;em&gt;Ubuntu Focal Fossa (20.04)&lt;/em&gt; on top of a &lt;em&gt;QEMU&lt;/em&gt; hypervisor on a &lt;em&gt;Proxmox 6.1&lt;/em&gt; host. The flash process is done with the &lt;a href=&#34;https://github.com/NXPmicro/mfgtools&#34;&gt;uuu tool&lt;/a&gt; from &lt;em&gt;NXPmicro&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.MX8 worked, on any further attempt the Proxmox host reset its USB and this then seemed to mess up the virtualized Ubuntu&amp;rsquo;s USB. I tried another Linux (&lt;em&gt;Fedora&lt;/em&gt;) as host and guest operating system for variety and both constellations did not improve the situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building Android Pie on Debian Buster</title>
       <link>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</link>
       <pubDate>Thu, 09 Apr 2020 17:24:56 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/aosp_pie_with_debian_buster/</guid>
-      <description>Until now I was falling back to Debian 9 &amp;ldquo;Stretch&amp;rdquo; for compiling the Android Open Source Project. This was due to the fact that compiling Android 8.1 &amp;ldquo;Oreo&amp;rdquo; failed to compile on Debian 10 &amp;ldquo;Buster&amp;rdquo; for me.
-My most recent project is based on Android 9 &amp;ldquo;Pie&amp;rdquo; and for this reason I wanted to give Debian Buster a new shot. And indeed - it worked! I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.</description>
+      <description>&lt;p&gt;Until now I was falling back to &lt;em&gt;Debian 9 &amp;ldquo;Stretch&amp;rdquo;&lt;/em&gt; for compiling the &lt;em&gt;Android Open Source Project&lt;/em&gt;.
+This was due to the fact that compiling &lt;em&gt;Android 8.1 &amp;ldquo;Oreo&amp;rdquo;&lt;/em&gt; failed to compile on &lt;em&gt;Debian 10 &amp;ldquo;Buster&amp;rdquo;&lt;/em&gt; for me.&lt;/p&gt;
+&lt;p&gt;My most recent project is based on &lt;em&gt;Android 9 &amp;ldquo;Pie&amp;rdquo;&lt;/em&gt; and for this reason I wanted to give &lt;em&gt;Debian Buster&lt;/em&gt; a new shot.
+And indeed - it worked!
+I conducted a network install with the netinst installation medium installing only the base utilities as additional components in the task selector.
+After the installation I manually added the packages &lt;code&gt;build-essential&lt;/code&gt;, &lt;code&gt;git&lt;/code&gt;, &lt;code&gt;gnupg&lt;/code&gt;, &lt;code&gt;libncurses5&lt;/code&gt;, &lt;code&gt;libtinfo5&lt;/code&gt;, &lt;code&gt;m4&lt;/code&gt;, &lt;code&gt;rsync&lt;/code&gt; and &lt;code&gt;zip&lt;/code&gt; (my methodology was rather low-tech: waiting for build errors to occur and installing the package responsible for the build error).
+This seems to be the baseline package selection required to sucessfully build &lt;em&gt;Andoid 9 &amp;ldquo;Pie&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compiling A More Recent Python Version On Debian Stretch</title>
       <link>https://markuspg.github.io/posts/compiling_python_on_debian/</link>
       <pubDate>Fri, 27 Mar 2020 13:26:29 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/compiling_python_on_debian/</guid>
-      <description>For a current work project I&amp;rsquo;m again dealing with building and modifying the Android Open Source Project. As usual my operating system of choice for that task is Debian Stretch (9.12).
-Since my last Android builds Google&amp;rsquo;s repo tool for organizing the multitude of repositories that are needed for an Android build got finally updated from Python 2 to Python 3 (and that seemingly straight to Python 3.6).
-Therefore on every invocation of repo init I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?</description>
+      <description>&lt;p&gt;For a current work project I&amp;rsquo;m again dealing with building and modifying the &lt;em&gt;Android Open Source Project&lt;/em&gt;.
+As usual my operating system of choice for that task is &lt;em&gt;Debian Stretch&lt;/em&gt; (9.12).&lt;/p&gt;
+&lt;p&gt;Since my last Android builds Google&amp;rsquo;s &lt;code&gt;repo&lt;/code&gt; tool for organizing the multitude of repositories that are needed for an Android build got finally updated from &lt;em&gt;Python 2&lt;/em&gt; to &lt;em&gt;Python 3&lt;/em&gt; (and that seemingly straight to &lt;em&gt;Python 3.6&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Therefore on every invocation of &lt;code&gt;repo init&lt;/code&gt; I got a complaint about an incompatible Python version being used (it still worked, but who does not like resolving error messages?).
+Fortunately Python makes it really easy to have multiple versions installed in parallel as explained in the following.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quick AOSP Build</title>
       <link>https://markuspg.github.io/posts/quick_aosp/</link>
       <pubDate>Sat, 19 Oct 2019 20:46:54 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/quick_aosp/</guid>
-      <description>This is an attempt at trying out how fast AOSP can be built for a Nexus 5X from scratch including setting up a virtual machine with Debian Stretch in which the build will be done. For virtualization VMware Workstation 15 Player was used on a Windows 10 v1809 running on a DELL laptop with an Intel Core i9-8950HK and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).</description>
+      <description>&lt;p&gt;This is an attempt at trying out how fast AOSP can be built for a &lt;em&gt;Nexus 5X&lt;/em&gt; from scratch including setting up a virtual machine with &lt;em&gt;Debian Stretch&lt;/em&gt; in which the build will be done.
+For virtualization &lt;em&gt;VMware Workstation 15 Player&lt;/em&gt; was used on a &lt;em&gt;Windows 10 v1809&lt;/em&gt; running on a &lt;em&gt;DELL&lt;/em&gt; laptop with an &lt;em&gt;Intel Core i9-8950HK&lt;/em&gt; and 32 GB RAM (eight virtual cores and 16 GB of RAM were allocated to the VM).&lt;/p&gt;</description>
     </item>
     <item>
       <title>(Re-)Installing a HP LaserJet P1606dn</title>
       <link>https://markuspg.github.io/posts/hp1606dn/</link>
       <pubDate>Thu, 17 Oct 2019 17:45:23 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/hp1606dn/</guid>
-      <description>As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release. This time from Stretch to Buster (thanks to the Debian community for this great release again!).
-For years I bought HP printers because they worked really nice with Linux. Last I bought a HP LaserJet P1606dn. This one harmed the Linux happiness. It needs some binary plugin and this regularly is a pain to install.</description>
+      <description>&lt;p&gt;As about every two years I upgraded my mother&amp;rsquo;s computer to the newest Debian release.
+This time from &lt;em&gt;Stretch&lt;/em&gt; to &lt;em&gt;Buster&lt;/em&gt; (thanks to the Debian community for this great release again!).&lt;/p&gt;
+&lt;p&gt;For years I bought &lt;em&gt;HP&lt;/em&gt; printers because they worked really nice with Linux.
+Last I bought a &lt;em&gt;HP LaserJet P1606dn&lt;/em&gt;.
+This one harmed the Linux happiness.
+It needs some binary plugin and this regularly is a pain to install.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

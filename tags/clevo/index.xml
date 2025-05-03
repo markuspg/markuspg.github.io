@@ -4,7 +4,7 @@
     <title>Clevo on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/clevo/</link>
     <description>Recent content in Clevo on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Apr 2022 22:35:13 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/clevo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,9 @@
       <link>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</link>
       <pubDate>Fri, 29 Apr 2022 22:35:13 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/clevo_n15xzu_teardown/</guid>
-      <description>Unfortunately my InfinityBook Pro 15 v4 from TUXEDO Computers GmbH recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a N15xZU from Clevo. The sticker on the underside can be seen below:
-At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step.</description>
+      <description>&lt;p&gt;Unfortunately my &lt;em&gt;InfinityBook Pro 15 v4&lt;/em&gt; from &lt;a href=&#34;https://www.tuxedocomputers.com&#34;&gt;TUXEDO Computers GmbH&lt;/a&gt; recently got dropped badly twice. After the second drop the screen was flickering at best or not working at all. This made me attempt to disassemble it to try to fix the screen. The barebone is a &lt;em&gt;N15xZU&lt;/em&gt; from &lt;em&gt;Clevo&lt;/em&gt;. The sticker on the underside can be seen below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Underside sticker&#34; loading=&#34;lazy&#34; src=&#34;https://markuspg.github.io/static/n15xzu_repair/01_underside.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At first I loosened all screws on the underside. The red and the yellow one are particularly important, since these are required to lift the keyboard in the next step. Through the hole of the yellow screw the keyboard can be lifted slightly by pressing it with a thin stick.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

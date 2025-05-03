@@ -4,7 +4,7 @@
     <title>I.mx8 on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/i.mx8/</link>
     <description>Recent content in I.mx8 on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jul 2020 22:19:37 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/i.mx8/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,8 @@
       <link>https://markuspg.github.io/posts/uuu_within_vm/</link>
       <pubDate>Tue, 28 Jul 2020 22:19:37 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/uuu_within_vm/</guid>
-      <description>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
-Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.</description>
+      <description>&lt;p&gt;For my current work project I have to integrate flashing a &lt;em&gt;NXP i.MX8&lt;/em&gt; from a virtual machine running &lt;em&gt;Ubuntu Focal Fossa (20.04)&lt;/em&gt; on top of a &lt;em&gt;QEMU&lt;/em&gt; hypervisor on a &lt;em&gt;Proxmox 6.1&lt;/em&gt; host. The flash process is done with the &lt;a href=&#34;https://github.com/NXPmicro/mfgtools&#34;&gt;uuu tool&lt;/a&gt; from &lt;em&gt;NXPmicro&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.MX8 worked, on any further attempt the Proxmox host reset its USB and this then seemed to mess up the virtualized Ubuntu&amp;rsquo;s USB. I tried another Linux (&lt;em&gt;Fedora&lt;/em&gt;) as host and guest operating system for variety and both constellations did not improve the situation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

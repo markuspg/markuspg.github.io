@@ -4,7 +4,7 @@
     <title>Completed on Programming Pilgrim</title>
     <link>https://markuspg.github.io/tags/completed/</link>
     <description>Recent content in Completed on Programming Pilgrim</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Jun 2021 21:37:52 +0200</lastBuildDate>
     <atom:link href="https://markuspg.github.io/tags/completed/index.xml" rel="self" type="application/rss+xml" />
@@ -13,9 +13,14 @@
       <link>https://markuspg.github.io/posts/completed_project_patir/</link>
       <pubDate>Tue, 22 Jun 2021 21:37:52 +0200</pubDate>
       <guid>https://markuspg.github.io/posts/completed_project_patir/</guid>
-      <description>Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.
-The first fruit of this resolution is a refactoring of patir, a Ruby gem I use for a project at work. My contributions mostly come down to:
-extending the coverage of its unit tests increasing its documentation&amp;rsquo;s coverage to 100% introducing RuboCop to the project and realizing a common style and adherence to best practises updating the gem&amp;rsquo;s dependencies to their current versions </description>
+      <description>&lt;p&gt;Recently I resolved to (try to) abstain from starting new programming projects before having finished the current ones.&lt;/p&gt;
+&lt;p&gt;The first fruit of this resolution is a refactoring of &lt;a href=&#34;https://github.com/damphyr/patir&#34;&gt;patir&lt;/a&gt;, a Ruby gem I use for a project at work. My contributions mostly come down to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;extending the coverage of its unit tests&lt;/li&gt;
+&lt;li&gt;increasing its documentation&amp;rsquo;s coverage to 100%&lt;/li&gt;
+&lt;li&gt;introducing &lt;a href=&#34;https://rubocop.org&#34;&gt;RuboCop&lt;/a&gt; to the project and realizing a common style and adherence to best practises&lt;/li&gt;
+&lt;li&gt;updating the gem&amp;rsquo;s dependencies to their current versions&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

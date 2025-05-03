@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="https://markuspg.github.io/tags/qemu/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://markuspg.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://markuspg.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://markuspg.github.io/favicon-32x32.png">
@@ -56,17 +56,14 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Qemu" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://markuspg.github.io/tags/qemu/" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Qemu"/>
-<meta name="twitter:description" content=""/>
+</noscript><meta property="og:url" content="https://markuspg.github.io/tags/qemu/">
+  <meta property="og:site_name" content="Programming Pilgrim">
+  <meta property="og:title" content="Qemu">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Qemu">
+<meta name="twitter:description" content="">
 
 </head>
 
@@ -87,7 +84,7 @@
         <div class="logo">
             <a href="https://markuspg.github.io/" accesskey="h" title="Programming Pilgrim (Alt + H)">Programming Pilgrim</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -127,7 +124,8 @@
   </header>
   <div class="entry-content">
     <p>For my current work project I have to integrate flashing a NXP i.MX8 from a virtual machine running Ubuntu Focal Fossa (20.04) on top of a QEMU hypervisor on a Proxmox 6.1 host. The flash process is done with the uuu tool from NXPmicro.
-Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i....</p>
+Unfortunately the initial flashing attempts were not successful. After quite a few tries a pattern crystallized. The very first flashing attempt after rebooting the VM and resetting the i.MX8 worked, on any further attempt the Proxmox host reset its USB and this then seemed to mess up the virtualized Ubuntu’s USB. I tried another Linux (Fedora) as host and guest operating system for variety and both constellations did not improve the situation.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2020-07-28 22:19:37 +0200 CEST'>July 28, 2020</span></footer>
   <a class="entry-link" aria-label="post link to Flashing with uuu from within a QEMU Hosted Linux VM" href="https://markuspg.github.io/posts/uuu_within_vm/"></a>
@@ -143,7 +141,8 @@ Unfortunately the initial flashing attempts were not successful. After quite a f
 Virtual Machine Image Creation A command to create an image:
 qemu-img create -f qcow2 -o nocow=on TestClient.img 64G The -o nocow=on option is valid on Btrfs only and shall avoid degraded performance.
 Installing and Running the Guest Operating System The image can then be installed and run with:
-qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation....</p>
+qemu-system-x86_64 -cdrom Downloads/debian-10.4.0-amd64-netinst.iso -enable-kvm -hda TestClient.img -k de -m 4096 -name &#39;Test Server&#39; The -cdrom part is only passed on installation. -enable-kvm greatly improves performance, -k de set the keyboard layout, -m 4096 the memory size and the -name &#39;Test Server&#39; adds a window title which helps telling apart multiple virtual machines.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2020-07-18 14:34:54 +0200 CEST'>July 18, 2020</span></footer>
   <a class="entry-link" aria-label="post link to Regularly used QEMU invocations" href="https://markuspg.github.io/posts/qemu_commands/"></a>
